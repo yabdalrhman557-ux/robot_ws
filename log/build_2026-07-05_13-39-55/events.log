@@ -1,0 +1,766 @@
+[0.000000] (-) TimerEvent: {}
+[0.001863] (diffdrive_arduino) JobQueued: {'identifier': 'diffdrive_arduino', 'dependencies': OrderedDict()}
+[0.002460] (my_bot) JobQueued: {'identifier': 'my_bot', 'dependencies': OrderedDict()}
+[0.002705] (serial_motor_demo_msgs) JobQueued: {'identifier': 'serial_motor_demo_msgs', 'dependencies': OrderedDict()}
+[0.003011] (serial_motor_demo) JobQueued: {'identifier': 'serial_motor_demo', 'dependencies': OrderedDict([('serial_motor_demo_msgs', '/home/abdn/robot_ws/install/serial_motor_demo_msgs')])}
+[0.003202] (serial_motor_demo_msgs) JobStarted: {'identifier': 'serial_motor_demo_msgs'}
+[0.034923] (diffdrive_arduino) JobStarted: {'identifier': 'diffdrive_arduino'}
+[0.058801] (my_bot) JobStarted: {'identifier': 'my_bot'}
+[0.087936] (serial_motor_demo_msgs) JobProgress: {'identifier': 'serial_motor_demo_msgs', 'progress': 'cmake'}
+[0.091302] (serial_motor_demo_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/abdn/robot_ws/src/serial_motor_demo/serial_motor_demo_msgs', '-DCMAKE_INSTALL_PREFIX=/home/abdn/robot_ws/install/serial_motor_demo_msgs'], 'cwd': '/home/abdn/robot_ws/build/serial_motor_demo_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'abdn'), ('SSH_CLIENT', '10.24.33.123 44054 22'), ('LC_TIME', 'ar_SY.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/home/abdn/robot_ws/install/diffdrive_arduino/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/abdn'), ('OLDPWD', '/home/abdn/robot_ws/src'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'ar_SY.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/abdn/robot_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'abdn'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'ar_SY.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'ar_SY.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble:/home/abdn/robot_ws/install/my_bot:/home/abdn/robot_ws/install/diffdrive_arduino:/home/abdn/robot_ws/install/articubot_one'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ar_SY.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ar_SY.UTF-8'), ('LC_IDENTIFICATION', 'ar_SY.UTF-8'), ('PWD', '/home/abdn/robot_ws/build/serial_motor_demo_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '10.24.33.123 44054 10.24.33.203 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ar_SY.UTF-8'), ('LC_PAPER', 'ar_SY.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/abdn/robot_ws/install/my_bot:/home/abdn/robot_ws/install/diffdrive_arduino:/home/abdn/robot_ws/install/articubot_one:/opt/ros/humble')]), 'shell': False}
+[0.104613] (-) TimerEvent: {}
+[0.106066] (diffdrive_arduino) JobProgress: {'identifier': 'diffdrive_arduino', 'progress': 'cmake'}
+[0.109369] (diffdrive_arduino) JobProgress: {'identifier': 'diffdrive_arduino', 'progress': 'build'}
+[0.113088] (diffdrive_arduino) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/abdn/robot_ws/build/diffdrive_arduino', '--', '-j4', '-l4'], 'cwd': '/home/abdn/robot_ws/build/diffdrive_arduino', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'abdn'), ('SSH_CLIENT', '10.24.33.123 44054 22'), ('LC_TIME', 'ar_SY.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/home/abdn/robot_ws/install/diffdrive_arduino/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/abdn'), ('OLDPWD', '/home/abdn/robot_ws/src'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'ar_SY.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/abdn/robot_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'abdn'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'ar_SY.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'ar_SY.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble:/home/abdn/robot_ws/install/my_bot:/home/abdn/robot_ws/install/diffdrive_arduino:/home/abdn/robot_ws/install/articubot_one'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ar_SY.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ar_SY.UTF-8'), ('LC_IDENTIFICATION', 'ar_SY.UTF-8'), ('PWD', '/home/abdn/robot_ws/build/diffdrive_arduino'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '10.24.33.123 44054 10.24.33.203 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ar_SY.UTF-8'), ('LC_PAPER', 'ar_SY.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/abdn/robot_ws/install/my_bot:/home/abdn/robot_ws/install/diffdrive_arduino:/home/abdn/robot_ws/install/articubot_one:/opt/ros/humble')]), 'shell': False}
+[0.134512] (my_bot) JobProgress: {'identifier': 'my_bot', 'progress': 'cmake'}
+[0.137984] (my_bot) JobProgress: {'identifier': 'my_bot', 'progress': 'build'}
+[0.145991] (my_bot) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/abdn/robot_ws/build/my_bot', '--', '-j4', '-l4'], 'cwd': '/home/abdn/robot_ws/build/my_bot', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'abdn'), ('SSH_CLIENT', '10.24.33.123 44054 22'), ('LC_TIME', 'ar_SY.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/home/abdn/robot_ws/install/diffdrive_arduino/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/abdn'), ('OLDPWD', '/home/abdn/robot_ws/src'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'ar_SY.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/abdn/robot_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'abdn'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'ar_SY.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'ar_SY.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble:/home/abdn/robot_ws/install/my_bot:/home/abdn/robot_ws/install/diffdrive_arduino:/home/abdn/robot_ws/install/articubot_one'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ar_SY.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ar_SY.UTF-8'), ('LC_IDENTIFICATION', 'ar_SY.UTF-8'), ('PWD', '/home/abdn/robot_ws/build/my_bot'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '10.24.33.123 44054 10.24.33.203 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ar_SY.UTF-8'), ('LC_PAPER', 'ar_SY.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/abdn/robot_ws/install/my_bot:/home/abdn/robot_ws/install/diffdrive_arduino:/home/abdn/robot_ws/install/articubot_one:/opt/ros/humble')]), 'shell': False}
+[0.199542] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.204869] (-) TimerEvent: {}
+[0.306197] (-) TimerEvent: {}
+[0.317754] (my_bot) CommandEnded: {'returncode': 0}
+[0.327782] (my_bot) JobProgress: {'identifier': 'my_bot', 'progress': 'install'}
+[0.374719] (my_bot) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/abdn/robot_ws/build/my_bot'], 'cwd': '/home/abdn/robot_ws/build/my_bot', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'abdn'), ('SSH_CLIENT', '10.24.33.123 44054 22'), ('LC_TIME', 'ar_SY.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/home/abdn/robot_ws/install/diffdrive_arduino/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/abdn'), ('OLDPWD', '/home/abdn/robot_ws/src'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'ar_SY.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/abdn/robot_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'abdn'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'ar_SY.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'ar_SY.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble:/home/abdn/robot_ws/install/my_bot:/home/abdn/robot_ws/install/diffdrive_arduino:/home/abdn/robot_ws/install/articubot_one'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ar_SY.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ar_SY.UTF-8'), ('LC_IDENTIFICATION', 'ar_SY.UTF-8'), ('PWD', '/home/abdn/robot_ws/build/my_bot'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '10.24.33.123 44054 10.24.33.203 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ar_SY.UTF-8'), ('LC_PAPER', 'ar_SY.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/abdn/robot_ws/install/my_bot:/home/abdn/robot_ws/install/diffdrive_arduino:/home/abdn/robot_ws/install/articubot_one:/opt/ros/humble')]), 'shell': False}
+[0.406581] (-) TimerEvent: {}
+[0.414133] (my_bot) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.418013] (diffdrive_arduino) StdoutLine: {'line': b'[100%] Built target diffdrive_arduino\n'}
+[0.419191] (my_bot) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.423463] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/abdn/robot_ws/install/my_bot/share/my_bot/config/drive_bot.rviz\n'}
+[0.425035] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/abdn/robot_ws/install/my_bot/share/my_bot/config/empty.yaml\n'}
+[0.426679] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/abdn/robot_ws/install/my_bot/share/my_bot/config/gazebo_params.yaml\n'}
+[0.428266] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/abdn/robot_ws/install/my_bot/share/my_bot/config/my_controllers.yaml\n'}
+[0.429850] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/abdn/robot_ws/install/my_bot/share/my_bot/config/view_bot.rviz\n'}
+[0.440278] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/abdn/robot_ws/install/my_bot/share/my_bot/description/gazebo_control.xacro\n'}
+[0.444065] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/abdn/robot_ws/install/my_bot/share/my_bot/description/inertial_macros.xacro\n'}
+[0.446660] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/abdn/robot_ws/install/my_bot/share/my_bot/description/lidar.xacro\n'}
+[0.449571] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/abdn/robot_ws/install/my_bot/share/my_bot/description/robot.urdf.xacro\n'}
+[0.452828] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/abdn/robot_ws/install/my_bot/share/my_bot/description/robot_core.xacro\n'}
+[0.462610] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/abdn/robot_ws/install/my_bot/share/my_bot/description/ros2_control.xacro\n'}
+[0.465170] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/abdn/robot_ws/install/my_bot/share/my_bot/launch/launch_robot.launch.py\n'}
+[0.466772] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/abdn/robot_ws/install/my_bot/share/my_bot/launch/launch_sim.launch.py\n'}
+[0.468842] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/abdn/robot_ws/install/my_bot/share/my_bot/launch/rplidar.launch.py\n'}
+[0.469583] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/abdn/robot_ws/install/my_bot/share/my_bot/launch/rsp.launch.py\n'}
+[0.472092] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/abdn/robot_ws/install/my_bot/share/my_bot/worlds/empty.world\n'}
+[0.474776] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/abdn/robot_ws/install/my_bot/share/my_bot/worlds/obstacles.world\n'}
+[0.478992] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/abdn/robot_ws/install/my_bot/share/ament_index/resource_index/package_run_dependencies/my_bot\n'}
+[0.480714] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/abdn/robot_ws/install/my_bot/share/ament_index/resource_index/parent_prefix_path/my_bot\n'}
+[0.490449] (diffdrive_arduino) CommandEnded: {'returncode': 0}
+[0.492104] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/abdn/robot_ws/install/my_bot/share/my_bot/environment/ament_prefix_path.sh\n'}
+[0.492617] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/abdn/robot_ws/install/my_bot/share/my_bot/environment/ament_prefix_path.dsv\n'}
+[0.493153] (diffdrive_arduino) JobProgress: {'identifier': 'diffdrive_arduino', 'progress': 'install'}
+[0.493317] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/abdn/robot_ws/install/my_bot/share/my_bot/environment/path.sh\n'}
+[0.493846] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/abdn/robot_ws/install/my_bot/share/my_bot/environment/path.dsv\n'}
+[0.494516] (diffdrive_arduino) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/abdn/robot_ws/build/diffdrive_arduino'], 'cwd': '/home/abdn/robot_ws/build/diffdrive_arduino', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'abdn'), ('SSH_CLIENT', '10.24.33.123 44054 22'), ('LC_TIME', 'ar_SY.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/home/abdn/robot_ws/install/diffdrive_arduino/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/abdn'), ('OLDPWD', '/home/abdn/robot_ws/src'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'ar_SY.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/abdn/robot_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'abdn'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'ar_SY.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'ar_SY.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble:/home/abdn/robot_ws/install/my_bot:/home/abdn/robot_ws/install/diffdrive_arduino:/home/abdn/robot_ws/install/articubot_one'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ar_SY.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ar_SY.UTF-8'), ('LC_IDENTIFICATION', 'ar_SY.UTF-8'), ('PWD', '/home/abdn/robot_ws/build/diffdrive_arduino'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '10.24.33.123 44054 10.24.33.203 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ar_SY.UTF-8'), ('LC_PAPER', 'ar_SY.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/abdn/robot_ws/install/my_bot:/home/abdn/robot_ws/install/diffdrive_arduino:/home/abdn/robot_ws/install/articubot_one:/opt/ros/humble')]), 'shell': False}
+[0.499077] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/abdn/robot_ws/install/my_bot/share/my_bot/local_setup.bash\n'}
+[0.501943] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/abdn/robot_ws/install/my_bot/share/my_bot/local_setup.sh\n'}
+[0.502980] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/abdn/robot_ws/install/my_bot/share/my_bot/local_setup.zsh\n'}
+[0.503895] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/abdn/robot_ws/install/my_bot/share/my_bot/local_setup.dsv\n'}
+[0.504866] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/abdn/robot_ws/install/my_bot/share/my_bot/package.dsv\n'}
+[0.506740] (-) TimerEvent: {}
+[0.535819] (diffdrive_arduino) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.537061] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/abdn/robot_ws/install/my_bot/share/ament_index/resource_index/packages/my_bot\n'}
+[0.538396] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/abdn/robot_ws/install/my_bot/share/my_bot/cmake/my_botConfig.cmake\n'}
+[0.541622] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/abdn/robot_ws/install/my_bot/share/my_bot/cmake/my_botConfig-version.cmake\n'}
+[0.542902] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/abdn/robot_ws/install/my_bot/share/my_bot/package.xml\n'}
+[0.545504] (diffdrive_arduino) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.558858] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/abdn/robot_ws/install/diffdrive_arduino/share/diffdrive_arduino//diffdrive_arduino.xml\n'}
+[0.561785] (my_bot) CommandEnded: {'returncode': 0}
+[0.564815] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/abdn/robot_ws/install/diffdrive_arduino/include/diffdrive_arduino/diffdrive_arduino/arduino_comms.hpp\n'}
+[0.572634] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/abdn/robot_ws/install/diffdrive_arduino/include/diffdrive_arduino/diffdrive_arduino/diffbot_system.hpp\n'}
+[0.576824] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/abdn/robot_ws/install/diffdrive_arduino/include/diffdrive_arduino/diffdrive_arduino/visibility_control.h\n'}
+[0.580996] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/abdn/robot_ws/install/diffdrive_arduino/include/diffdrive_arduino/diffdrive_arduino/wheel.hpp\n'}
+[0.584653] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/abdn/robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/launch/view_robot.launch.py\n'}
+[0.588633] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/abdn/robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/ros2_control/diffbot.ros2_control.xacro\n'}
+[0.590847] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/abdn/robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/urdf/diffbot.materials.xacro\n'}
+[0.591928] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/abdn/robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/urdf/diffbot.urdf.xacro\n'}
+[0.592647] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/abdn/robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/urdf/diffbot_description.urdf.xacro\n'}
+[0.593641] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/abdn/robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/rviz/diffbot.rviz\n'}
+[0.594579] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/abdn/robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/rviz/diffbot_view.rviz\n'}
+[0.595880] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/abdn/robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/launch/diffbot.launch.py\n'}
+[0.596657] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/abdn/robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/config/diffbot_controllers.yaml\n'}
+[0.598203] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/abdn/robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/environment/library_path.sh\n'}
+[0.599845] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/abdn/robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/environment/library_path.dsv\n'}
+[0.602703] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/abdn/robot_ws/install/diffdrive_arduino/share/ament_index/resource_index/package_run_dependencies/diffdrive_arduino\n'}
+[0.604691] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/abdn/robot_ws/install/diffdrive_arduino/share/ament_index/resource_index/parent_prefix_path/diffdrive_arduino\n'}
+[0.606088] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/abdn/robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/environment/ament_prefix_path.sh\n'}
+[0.607839] (-) TimerEvent: {}
+[0.609870] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/abdn/robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/environment/ament_prefix_path.dsv\n'}
+[0.610817] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/abdn/robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/environment/path.sh\n'}
+[0.611663] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/abdn/robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/environment/path.dsv\n'}
+[0.612072] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/abdn/robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.bash\n'}
+[0.612529] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/abdn/robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.sh\n'}
+[0.613179] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/abdn/robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.zsh\n'}
+[0.614633] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/abdn/robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.dsv\n'}
+[0.615331] (diffdrive_arduino) StdoutLine: {'line': b'-- Symlinking: /home/abdn/robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/package.dsv\n'}
+[0.652460] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/abdn/robot_ws/install/diffdrive_arduino/share/ament_index/resource_index/packages/diffdrive_arduino\n'}
+[0.656969] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/abdn/robot_ws/install/diffdrive_arduino/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/diffdrive_arduino\n'}
+[0.657843] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/abdn/robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[0.660450] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/abdn/robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[0.664155] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/abdn/robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/cmake/diffdrive_arduinoConfig.cmake\n'}
+[0.666497] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/abdn/robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/cmake/diffdrive_arduinoConfig-version.cmake\n'}
+[0.670518] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/abdn/robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/package.xml\n'}
+[0.675575] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date: /home/abdn/robot_ws/install/diffdrive_arduino/lib/libdiffdrive_arduino.so\n'}
+[0.680414] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date: /home/abdn/robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/cmake/export_diffdrive_arduinoExport.cmake\n'}
+[0.681859] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date: /home/abdn/robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/cmake/export_diffdrive_arduinoExport-noconfig.cmake\n'}
+[0.708439] (-) TimerEvent: {}
+[0.722806] (my_bot) JobEnded: {'identifier': 'my_bot', 'rc': 0}
+[0.729418] (diffdrive_arduino) CommandEnded: {'returncode': 0}
+[0.809185] (-) TimerEvent: {}
+[0.836827] (diffdrive_arduino) JobEnded: {'identifier': 'diffdrive_arduino', 'rc': 0}
+[0.909443] (-) TimerEvent: {}
+[1.010178] (-) TimerEvent: {}
+[1.103838] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[1.110412] (-) TimerEvent: {}
+[1.211215] (-) TimerEvent: {}
+[1.312005] (-) TimerEvent: {}
+[1.412864] (-) TimerEvent: {}
+[1.513997] (-) TimerEvent: {}
+[1.614728] (-) TimerEvent: {}
+[1.715440] (-) TimerEvent: {}
+[1.816159] (-) TimerEvent: {}
+[1.916878] (-) TimerEvent: {}
+[1.955620] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[2.017009] (-) TimerEvent: {}
+[2.117694] (-) TimerEvent: {}
+[2.218547] (-) TimerEvent: {}
+[2.319419] (-) TimerEvent: {}
+[2.420230] (-) TimerEvent: {}
+[2.520940] (-) TimerEvent: {}
+[2.597428] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.1 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[2.621107] (-) TimerEvent: {}
+[2.652382] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.721293] (-) TimerEvent: {}
+[2.772838] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[2.821499] (-) TimerEvent: {}
+[2.922403] (-) TimerEvent: {}
+[3.023140] (-) TimerEvent: {}
+[3.123894] (-) TimerEvent: {}
+[3.224753] (-) TimerEvent: {}
+[3.275271] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.324925] (-) TimerEvent: {}
+[3.425655] (-) TimerEvent: {}
+[3.526509] (-) TimerEvent: {}
+[3.627234] (-) TimerEvent: {}
+[3.728039] (-) TimerEvent: {}
+[3.828891] (-) TimerEvent: {}
+[3.929744] (-) TimerEvent: {}
+[4.030747] (-) TimerEvent: {}
+[4.131637] (-) TimerEvent: {}
+[4.239638] (-) TimerEvent: {}
+[4.340486] (-) TimerEvent: {}
+[4.441234] (-) TimerEvent: {}
+[4.542010] (-) TimerEvent: {}
+[4.642765] (-) TimerEvent: {}
+[4.743578] (-) TimerEvent: {}
+[4.770628] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[4.843791] (-) TimerEvent: {}
+[4.944608] (-) TimerEvent: {}
+[5.045331] (-) TimerEvent: {}
+[5.146296] (-) TimerEvent: {}
+[5.247526] (-) TimerEvent: {}
+[5.348237] (-) TimerEvent: {}
+[5.449137] (-) TimerEvent: {}
+[5.550312] (-) TimerEvent: {}
+[5.651051] (-) TimerEvent: {}
+[5.751890] (-) TimerEvent: {}
+[5.788996] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[5.852035] (-) TimerEvent: {}
+[5.952746] (-) TimerEvent: {}
+[6.053510] (-) TimerEvent: {}
+[6.154418] (-) TimerEvent: {}
+[6.255326] (-) TimerEvent: {}
+[6.356027] (-) TimerEvent: {}
+[6.456861] (-) TimerEvent: {}
+[6.557630] (-) TimerEvent: {}
+[6.658450] (-) TimerEvent: {}
+[6.759251] (-) TimerEvent: {}
+[6.860065] (-) TimerEvent: {}
+[6.960802] (-) TimerEvent: {}
+[7.022989] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[7.061117] (-) TimerEvent: {}
+[7.150289] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[7.161251] (-) TimerEvent: {}
+[7.179430] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[7.261476] (-) TimerEvent: {}
+[7.322366] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[7.323259] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[7.323837] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[7.324377] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so\n'}
+[7.361641] (-) TimerEvent: {}
+[7.432237] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[7.461942] (-) TimerEvent: {}
+[7.563040] (-) TimerEvent: {}
+[7.664014] (-) TimerEvent: {}
+[7.764871] (-) TimerEvent: {}
+[7.865632] (-) TimerEvent: {}
+[7.966395] (-) TimerEvent: {}
+[7.968869] (serial_motor_demo_msgs) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[7.988043] (serial_motor_demo_msgs) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[7.999937] (serial_motor_demo_msgs) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[8.053046] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Configuring done\n'}
+[8.066602] (-) TimerEvent: {}
+[8.167431] (-) TimerEvent: {}
+[8.268176] (-) TimerEvent: {}
+[8.298496] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Generating done\n'}
+[8.354203] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/abdn/robot_ws/build/serial_motor_demo_msgs\n'}
+[8.368473] (-) TimerEvent: {}
+[8.381268] (serial_motor_demo_msgs) CommandEnded: {'returncode': 0}
+[8.383315] (serial_motor_demo_msgs) JobProgress: {'identifier': 'serial_motor_demo_msgs', 'progress': 'build'}
+[8.384412] (serial_motor_demo_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/abdn/robot_ws/build/serial_motor_demo_msgs', '--', '-j4', '-l4'], 'cwd': '/home/abdn/robot_ws/build/serial_motor_demo_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'abdn'), ('SSH_CLIENT', '10.24.33.123 44054 22'), ('LC_TIME', 'ar_SY.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/home/abdn/robot_ws/install/diffdrive_arduino/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/abdn'), ('OLDPWD', '/home/abdn/robot_ws/src'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'ar_SY.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/abdn/robot_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'abdn'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'ar_SY.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'ar_SY.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble:/home/abdn/robot_ws/install/my_bot:/home/abdn/robot_ws/install/diffdrive_arduino:/home/abdn/robot_ws/install/articubot_one'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ar_SY.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ar_SY.UTF-8'), ('LC_IDENTIFICATION', 'ar_SY.UTF-8'), ('PWD', '/home/abdn/robot_ws/build/serial_motor_demo_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '10.24.33.123 44054 10.24.33.203 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ar_SY.UTF-8'), ('LC_PAPER', 'ar_SY.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/abdn/robot_ws/install/my_bot:/home/abdn/robot_ws/install/diffdrive_arduino:/home/abdn/robot_ws/install/articubot_one:/opt/ros/humble')]), 'shell': False}
+[8.468696] (-) TimerEvent: {}
+[8.569682] (-) TimerEvent: {}
+[8.582827] (serial_motor_demo_msgs) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[8.635448] (serial_motor_demo_msgs) StdoutLine: {'line': b'[  4%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[8.655365] (serial_motor_demo_msgs) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating Rust code for ROS interfaces\x1b[0m\n'}
+[8.669889] (-) TimerEvent: {}
+[8.710285] (serial_motor_demo_msgs) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_copy_serial_motor_demo_msgs\n'}
+[8.770161] (-) TimerEvent: {}
+[8.871173] (-) TimerEvent: {}
+[8.972089] (-) TimerEvent: {}
+[9.072977] (-) TimerEvent: {}
+[9.173881] (-) TimerEvent: {}
+[9.275022] (-) TimerEvent: {}
+[9.376025] (-) TimerEvent: {}
+[9.476968] (-) TimerEvent: {}
+[9.577770] (-) TimerEvent: {}
+[9.678666] (-) TimerEvent: {}
+[9.779495] (-) TimerEvent: {}
+[9.880311] (-) TimerEvent: {}
+[9.981164] (-) TimerEvent: {}
+[10.082174] (-) TimerEvent: {}
+[10.183224] (-) TimerEvent: {}
+[10.284089] (-) TimerEvent: {}
+[10.367340] (serial_motor_demo_msgs) StdoutLine: {'line': b'[  6%] Built target serial_motor_demo_msgs__rs\n'}
+[10.384314] (-) TimerEvent: {}
+[10.467065] (serial_motor_demo_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[10.471975] (serial_motor_demo_msgs) StdoutLine: {'line': b'creating serial_motor_demo_msgs.egg-info\n'}
+[10.473919] (serial_motor_demo_msgs) StdoutLine: {'line': b'writing serial_motor_demo_msgs.egg-info/PKG-INFO\n'}
+[10.475536] (serial_motor_demo_msgs) StdoutLine: {'line': b'writing dependency_links to serial_motor_demo_msgs.egg-info/dependency_links.txt\n'}
+[10.477459] (serial_motor_demo_msgs) StdoutLine: {'line': b'writing top-level names to serial_motor_demo_msgs.egg-info/top_level.txt\n'}
+[10.479101] (serial_motor_demo_msgs) StdoutLine: {'line': b"writing manifest file 'serial_motor_demo_msgs.egg-info/SOURCES.txt'\n"}
+[10.484475] (-) TimerEvent: {}
+[10.496320] (serial_motor_demo_msgs) StdoutLine: {'line': b"reading manifest file 'serial_motor_demo_msgs.egg-info/SOURCES.txt'\n"}
+[10.499327] (serial_motor_demo_msgs) StdoutLine: {'line': b"writing manifest file 'serial_motor_demo_msgs.egg-info/SOURCES.txt'\n"}
+[10.584898] (-) TimerEvent: {}
+[10.688169] (-) TimerEvent: {}
+[10.710813] (serial_motor_demo_msgs) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_build_serial_motor_demo_msgs_egg\n'}
+[10.788379] (-) TimerEvent: {}
+[10.890689] (-) TimerEvent: {}
+[10.992843] (-) TimerEvent: {}
+[11.086713] (serial_motor_demo_msgs) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding C object CMakeFiles/serial_motor_demo_msgs__rosidl_generator_c.dir/rosidl_generator_c/serial_motor_demo_msgs/msg/detail/motor_command__functions.c.o\x1b[0m\n'}
+[11.088388] (serial_motor_demo_msgs) StdoutLine: {'line': b'[  8%] Built target serial_motor_demo_msgs__cpp\n'}
+[11.090303] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/serial_motor_demo_msgs__rosidl_generator_c.dir/rosidl_generator_c/serial_motor_demo_msgs/msg/detail/motor_vels__functions.c.o\x1b[0m\n'}
+[11.093216] (-) TimerEvent: {}
+[11.100554] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/serial_motor_demo_msgs__rosidl_generator_c.dir/rosidl_generator_c/serial_motor_demo_msgs/msg/detail/encoder_vals__functions.c.o\x1b[0m\n'}
+[11.146400] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 14%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[11.193431] (-) TimerEvent: {}
+[11.295369] (-) TimerEvent: {}
+[11.398009] (-) TimerEvent: {}
+[11.480142] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 16%] \x1b[32m\x1b[1mLinking C shared library libserial_motor_demo_msgs__rosidl_generator_c.so\x1b[0m\n'}
+[11.485429] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 18%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[11.492310] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 20%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[11.498196] (-) TimerEvent: {}
+[11.599369] (-) TimerEvent: {}
+[11.700560] (-) TimerEvent: {}
+[11.725282] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 20%] Built target serial_motor_demo_msgs__rosidl_generator_c\n'}
+[11.787595] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 22%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[11.800905] (-) TimerEvent: {}
+[11.901983] (-) TimerEvent: {}
+[12.002904] (-) TimerEvent: {}
+[12.103817] (-) TimerEvent: {}
+[12.204854] (-) TimerEvent: {}
+[12.305777] (-) TimerEvent: {}
+[12.406636] (-) TimerEvent: {}
+[12.507528] (-) TimerEvent: {}
+[12.608524] (-) TimerEvent: {}
+[12.709832] (-) TimerEvent: {}
+[12.810898] (-) TimerEvent: {}
+[12.837668] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/serial_motor_demo_msgs/msg/motor_command__type_support.cpp.o\x1b[0m\n'}
+[12.911090] (-) TimerEvent: {}
+[13.012774] (-) TimerEvent: {}
+[13.114749] (-) TimerEvent: {}
+[13.218248] (-) TimerEvent: {}
+[13.320368] (-) TimerEvent: {}
+[13.423362] (-) TimerEvent: {}
+[13.483792] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/serial_motor_demo_msgs/msg/detail/motor_command__type_support.cpp.o\x1b[0m\n'}
+[13.523598] (-) TimerEvent: {}
+[13.625731] (-) TimerEvent: {}
+[13.714131] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/serial_motor_demo_msgs/msg/detail/dds_fastrtps/motor_command__type_support.cpp.o\x1b[0m\n'}
+[13.726037] (-) TimerEvent: {}
+[13.828532] (-) TimerEvent: {}
+[13.931363] (-) TimerEvent: {}
+[13.939663] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/serial_motor_demo_msgs/msg/detail/motor_command__type_support_c.cpp.o\x1b[0m\n'}
+[14.031478] (-) TimerEvent: {}
+[14.133299] (-) TimerEvent: {}
+[14.249078] (-) TimerEvent: {}
+[14.350090] (-) TimerEvent: {}
+[14.451528] (-) TimerEvent: {}
+[14.553356] (-) TimerEvent: {}
+[14.655736] (-) TimerEvent: {}
+[14.757878] (-) TimerEvent: {}
+[14.859988] (-) TimerEvent: {}
+[14.876283] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/serial_motor_demo_msgs/msg/motor_vels__type_support.cpp.o\x1b[0m\n'}
+[14.960235] (-) TimerEvent: {}
+[15.062148] (-) TimerEvent: {}
+[15.164032] (-) TimerEvent: {}
+[15.265982] (-) TimerEvent: {}
+[15.367825] (-) TimerEvent: {}
+[15.469816] (-) TimerEvent: {}
+[15.571891] (-) TimerEvent: {}
+[15.673704] (-) TimerEvent: {}
+[15.774861] (-) TimerEvent: {}
+[15.876023] (-) TimerEvent: {}
+[15.977195] (-) TimerEvent: {}
+[16.078310] (-) TimerEvent: {}
+[16.089700] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/serial_motor_demo_msgs/msg/detail/motor_vels__type_support.cpp.o\x1b[0m\n'}
+[16.178548] (-) TimerEvent: {}
+[16.247027] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/serial_motor_demo_msgs/msg/detail/motor_vels__type_support_c.cpp.o\x1b[0m\n'}
+[16.278811] (-) TimerEvent: {}
+[16.381196] (-) TimerEvent: {}
+[16.483326] (-) TimerEvent: {}
+[16.495213] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding CXX object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/serial_motor_demo_msgs/msg/detail/dds_fastrtps/motor_vels__type_support.cpp.o\x1b[0m\n'}
+[16.583578] (-) TimerEvent: {}
+[16.685583] (-) TimerEvent: {}
+[16.712792] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/serial_motor_demo_msgs/msg/encoder_vals__type_support.cpp.o\x1b[0m\n'}
+[16.785858] (-) TimerEvent: {}
+[16.887864] (-) TimerEvent: {}
+[16.989793] (-) TimerEvent: {}
+[17.091853] (-) TimerEvent: {}
+[17.194088] (-) TimerEvent: {}
+[17.296409] (-) TimerEvent: {}
+[17.398721] (-) TimerEvent: {}
+[17.500997] (-) TimerEvent: {}
+[17.603606] (-) TimerEvent: {}
+[17.705793] (-) TimerEvent: {}
+[17.808392] (-) TimerEvent: {}
+[17.910617] (-) TimerEvent: {}
+[18.013198] (-) TimerEvent: {}
+[18.115656] (-) TimerEvent: {}
+[18.218401] (-) TimerEvent: {}
+[18.320570] (-) TimerEvent: {}
+[18.423246] (-) TimerEvent: {}
+[18.518180] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/serial_motor_demo_msgs/msg/detail/encoder_vals__type_support_c.cpp.o\x1b[0m\n'}
+[18.523551] (-) TimerEvent: {}
+[18.582870] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/serial_motor_demo_msgs/msg/detail/encoder_vals__type_support.cpp.o\x1b[0m\n'}
+[18.606807] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 47%] \x1b[32m\x1b[1mLinking CXX shared library libserial_motor_demo_msgs__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[18.623815] (-) TimerEvent: {}
+[18.726485] (-) TimerEvent: {}
+[18.828389] (-) TimerEvent: {}
+[18.850081] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 47%] Built target serial_motor_demo_msgs__rosidl_typesupport_cpp\n'}
+[18.905977] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 50%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[18.928809] (-) TimerEvent: {}
+[19.031794] (-) TimerEvent: {}
+[19.117020] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/serial_motor_demo_msgs/msg/detail/dds_fastrtps/encoder_vals__type_support.cpp.o\x1b[0m\n'}
+[19.132043] (-) TimerEvent: {}
+[19.233984] (-) TimerEvent: {}
+[19.335542] (-) TimerEvent: {}
+[19.437480] (-) TimerEvent: {}
+[19.539358] (-) TimerEvent: {}
+[19.641097] (-) TimerEvent: {}
+[19.742822] (-) TimerEvent: {}
+[19.844563] (-) TimerEvent: {}
+[19.946505] (-) TimerEvent: {}
+[20.048482] (-) TimerEvent: {}
+[20.150592] (-) TimerEvent: {}
+[20.252589] (-) TimerEvent: {}
+[20.354455] (-) TimerEvent: {}
+[20.456595] (-) TimerEvent: {}
+[20.558576] (-) TimerEvent: {}
+[20.660288] (-) TimerEvent: {}
+[20.762176] (-) TimerEvent: {}
+[20.781701] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 54%] \x1b[32m\x1b[1mLinking CXX shared library libserial_motor_demo_msgs__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[20.862624] (-) TimerEvent: {}
+[20.965622] (-) TimerEvent: {}
+[21.067951] (-) TimerEvent: {}
+[21.146755] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 56%] \x1b[32m\x1b[1mLinking CXX shared library libserial_motor_demo_msgs__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[21.168243] (-) TimerEvent: {}
+[21.270559] (-) TimerEvent: {}
+[21.284393] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding C object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/serial_motor_demo_msgs/msg/detail/motor_command__type_support.c.o\x1b[0m\n'}
+[21.296048] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 58%] Built target serial_motor_demo_msgs__rosidl_typesupport_fastrtps_c\n'}
+[21.356518] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 60%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[21.370788] (-) TimerEvent: {}
+[21.420102] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 60%] Built target serial_motor_demo_msgs__rosidl_typesupport_introspection_cpp\n'}
+[21.471076] (-) TimerEvent: {}
+[21.477560] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding C object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/serial_motor_demo_msgs/msg/detail/motor_vels__type_support.c.o\x1b[0m\n'}
+[21.527638] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding C object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/serial_motor_demo_msgs/msg/detail/encoder_vals__type_support.c.o\x1b[0m\n'}
+[21.571313] (-) TimerEvent: {}
+[21.672422] (-) TimerEvent: {}
+[21.744538] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking C shared library libserial_motor_demo_msgs__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[21.772709] (-) TimerEvent: {}
+[21.873794] (-) TimerEvent: {}
+[21.911565] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 66%] Built target serial_motor_demo_msgs__rosidl_typesupport_introspection_c\n'}
+[21.923107] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 68%] \x1b[32m\x1b[1mLinking CXX shared library libserial_motor_demo_msgs__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[21.974130] (-) TimerEvent: {}
+[22.075666] (-) TimerEvent: {}
+[22.176633] (-) TimerEvent: {}
+[22.277490] (-) TimerEvent: {}
+[22.296500] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 68%] Built target serial_motor_demo_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[22.377659] (-) TimerEvent: {}
+[22.478541] (-) TimerEvent: {}
+[22.579250] (-) TimerEvent: {}
+[22.680215] (-) TimerEvent: {}
+[22.781332] (-) TimerEvent: {}
+[22.873537] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/serial_motor_demo_msgs/msg/motor_command__type_support.cpp.o\x1b[0m\n'}
+[22.876292] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/serial_motor_demo_msgs/msg/motor_vels__type_support.cpp.o\x1b[0m\n'}
+[22.879182] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/serial_motor_demo_msgs/msg/encoder_vals__type_support.cpp.o\x1b[0m\n'}
+[22.881554] (-) TimerEvent: {}
+[22.983364] (-) TimerEvent: {}
+[23.053487] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 77%] \x1b[32m\x1b[1mLinking CXX shared library libserial_motor_demo_msgs__rosidl_typesupport_c.so\x1b[0m\n'}
+[23.083556] (-) TimerEvent: {}
+[23.184510] (-) TimerEvent: {}
+[23.243410] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 77%] Built target serial_motor_demo_msgs__rosidl_typesupport_c\n'}
+[23.284739] (-) TimerEvent: {}
+[23.336259] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 77%] Built target serial_motor_demo_msgs\n'}
+[23.384930] (-) TimerEvent: {}
+[23.431889] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 79%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[23.485109] (-) TimerEvent: {}
+[23.585879] (-) TimerEvent: {}
+[23.686685] (-) TimerEvent: {}
+[23.787399] (-) TimerEvent: {}
+[23.888132] (-) TimerEvent: {}
+[23.988900] (-) TimerEvent: {}
+[24.089653] (-) TimerEvent: {}
+[24.190444] (-) TimerEvent: {}
+[24.291238] (-) TimerEvent: {}
+[24.391964] (-) TimerEvent: {}
+[24.492655] (-) TimerEvent: {}
+[24.593364] (-) TimerEvent: {}
+[24.694128] (-) TimerEvent: {}
+[24.794870] (-) TimerEvent: {}
+[24.895583] (-) TimerEvent: {}
+[24.996271] (-) TimerEvent: {}
+[25.096964] (-) TimerEvent: {}
+[25.197712] (-) TimerEvent: {}
+[25.298460] (-) TimerEvent: {}
+[25.399194] (-) TimerEvent: {}
+[25.499931] (-) TimerEvent: {}
+[25.600863] (-) TimerEvent: {}
+[25.702060] (-) TimerEvent: {}
+[25.792114] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 79%] Built target serial_motor_demo_msgs__py\n'}
+[25.802235] (-) TimerEvent: {}
+[25.895680] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 81%] \x1b[32mBuilding C object CMakeFiles/serial_motor_demo_msgs__rosidl_generator_py.dir/rosidl_generator_py/serial_motor_demo_msgs/msg/_motor_command_s.c.o\x1b[0m\n'}
+[25.896806] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/serial_motor_demo_msgs__rosidl_generator_py.dir/rosidl_generator_py/serial_motor_demo_msgs/msg/_motor_vels_s.c.o\x1b[0m\n'}
+[25.899132] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/serial_motor_demo_msgs__rosidl_generator_py.dir/rosidl_generator_py/serial_motor_demo_msgs/msg/_encoder_vals_s.c.o\x1b[0m\n'}
+[25.902472] (-) TimerEvent: {}
+[26.003298] (-) TimerEvent: {}
+[26.104142] (-) TimerEvent: {}
+[26.205066] (-) TimerEvent: {}
+[26.307323] (-) TimerEvent: {}
+[26.409819] (-) TimerEvent: {}
+[26.512311] (-) TimerEvent: {}
+[26.615110] (-) TimerEvent: {}
+[26.650108] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 87%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/serial_motor_demo_msgs/libserial_motor_demo_msgs__rosidl_generator_py.so\x1b[0m\n'}
+[26.715305] (-) TimerEvent: {}
+[26.816147] (-) TimerEvent: {}
+[26.863685] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 87%] Built target serial_motor_demo_msgs__rosidl_generator_py\n'}
+[26.916424] (-) TimerEvent: {}
+[26.961873] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/serial_motor_demo_msgs/_serial_motor_demo_msgs_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[26.963073] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/serial_motor_demo_msgs/_serial_motor_demo_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[26.969258] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/serial_motor_demo_msgs/_serial_motor_demo_msgs_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[27.016660] (-) TimerEvent: {}
+[27.118269] (-) TimerEvent: {}
+[27.220440] (-) TimerEvent: {}
+[27.322607] (-) TimerEvent: {}
+[27.424703] (-) TimerEvent: {}
+[27.515009] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/serial_motor_demo_msgs/serial_motor_demo_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[27.525061] (-) TimerEvent: {}
+[27.530481] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/serial_motor_demo_msgs/serial_motor_demo_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[27.580582] (serial_motor_demo_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/serial_motor_demo_msgs/serial_motor_demo_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[27.625323] (-) TimerEvent: {}
+[27.712352] (serial_motor_demo_msgs) StdoutLine: {'line': b'[100%] Built target serial_motor_demo_msgs__rosidl_typesupport_c__pyext\n'}
+[27.725635] (-) TimerEvent: {}
+[27.727514] (serial_motor_demo_msgs) StdoutLine: {'line': b'[100%] Built target serial_motor_demo_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[27.779854] (serial_motor_demo_msgs) StdoutLine: {'line': b'[100%] Built target serial_motor_demo_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[27.825899] (-) TimerEvent: {}
+[27.829326] (serial_motor_demo_msgs) CommandEnded: {'returncode': 0}
+[27.832284] (serial_motor_demo_msgs) JobProgress: {'identifier': 'serial_motor_demo_msgs', 'progress': 'install'}
+[27.833365] (serial_motor_demo_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/abdn/robot_ws/build/serial_motor_demo_msgs'], 'cwd': '/home/abdn/robot_ws/build/serial_motor_demo_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'abdn'), ('SSH_CLIENT', '10.24.33.123 44054 22'), ('LC_TIME', 'ar_SY.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/home/abdn/robot_ws/install/diffdrive_arduino/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/abdn'), ('OLDPWD', '/home/abdn/robot_ws/src'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'ar_SY.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/abdn/robot_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'abdn'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'ar_SY.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'ar_SY.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble:/home/abdn/robot_ws/install/my_bot:/home/abdn/robot_ws/install/diffdrive_arduino:/home/abdn/robot_ws/install/articubot_one'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ar_SY.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ar_SY.UTF-8'), ('LC_IDENTIFICATION', 'ar_SY.UTF-8'), ('PWD', '/home/abdn/robot_ws/build/serial_motor_demo_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '10.24.33.123 44054 10.24.33.203 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ar_SY.UTF-8'), ('LC_PAPER', 'ar_SY.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/abdn/robot_ws/install/my_bot:/home/abdn/robot_ws/install/diffdrive_arduino:/home/abdn/robot_ws/install/articubot_one:/opt/ros/humble')]), 'shell': False}
+[27.870725] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[27.872017] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/abdn/robot_ws/install/serial_motor_demo_msgs/share/ament_index/resource_index/rosidl_interfaces/serial_motor_demo_msgs\n'}
+[27.873583] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/abdn/robot_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs\n'}
+[27.874617] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/abdn/robot_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg\n'}
+[27.875471] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/abdn/robot_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/motor_command.h\n'}
+[27.876909] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/abdn/robot_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/encoder_vals.h\n'}
+[27.878217] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/abdn/robot_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/motor_vels.h\n'}
+[27.879633] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/abdn/robot_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[27.880991] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/abdn/robot_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail\n'}
+[27.882019] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/abdn/robot_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_vels__functions.h\n'}
+[27.883758] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/abdn/robot_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_vels__functions.c\n'}
+[27.885188] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/abdn/robot_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/encoder_vals__struct.h\n'}
+[27.886655] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/abdn/robot_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/encoder_vals__functions.c\n'}
+[27.888104] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/abdn/robot_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_command__struct.h\n'}
+[27.889521] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/abdn/robot_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_vels__struct.h\n'}
+[27.891022] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/abdn/robot_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/encoder_vals__functions.h\n'}
+[27.892489] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/abdn/robot_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_command__functions.c\n'}
+[27.893989] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/abdn/robot_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/encoder_vals__type_support.h\n'}
+[27.895470] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/abdn/robot_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_vels__type_support.h\n'}
+[27.896926] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/abdn/robot_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_command__type_support.h\n'}
+[27.898450] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/abdn/robot_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_command__functions.h\n'}
+[27.900423] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/abdn/robot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/library_path.sh\n'}
+[27.901857] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/abdn/robot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/library_path.dsv\n'}
+[27.903725] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/abdn/robot_ws/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_generator_c.so\n'}
+[27.907375] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/abdn/robot_ws/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_generator_c.so" to ""\n'}
+[27.908095] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/abdn/robot_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs\n'}
+[27.908602] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/abdn/robot_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg\n'}
+[27.909100] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/abdn/robot_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[27.910392] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/abdn/robot_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail\n'}
+[27.911108] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/abdn/robot_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/encoder_vals__rosidl_typesupport_fastrtps_c.h\n'}
+[27.912736] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/abdn/robot_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_command__rosidl_typesupport_fastrtps_c.h\n'}
+[27.914304] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/abdn/robot_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_vels__rosidl_typesupport_fastrtps_c.h\n'}
+[27.916219] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/abdn/robot_ws/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[27.919648] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/abdn/robot_ws/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[27.920349] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/abdn/robot_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs\n'}
+[27.920865] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/abdn/robot_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg\n'}
+[27.921354] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/abdn/robot_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail\n'}
+[27.921856] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/abdn/robot_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_command__type_support.c\n'}
+[27.923413] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/abdn/robot_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_command__rosidl_typesupport_introspection_c.h\n'}
+[27.924955] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/abdn/robot_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_vels__type_support.c\n'}
+[27.925991] (-) TimerEvent: {}
+[27.926556] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/abdn/robot_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/encoder_vals__rosidl_typesupport_introspection_c.h\n'}
+[27.928232] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/abdn/robot_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/encoder_vals__type_support.c\n'}
+[27.929794] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/abdn/robot_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_vels__rosidl_typesupport_introspection_c.h\n'}
+[27.931423] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/abdn/robot_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[27.933247] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/abdn/robot_ws/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_introspection_c.so\n'}
+[27.936471] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/abdn/robot_ws/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_introspection_c.so" to ""\n'}
+[27.937085] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/abdn/robot_ws/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_c.so\n'}
+[27.940187] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/abdn/robot_ws/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_c.so" to ""\n'}
+[27.940819] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/abdn/robot_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs\n'}
+[27.941340] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/abdn/robot_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg\n'}
+[27.941900] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/abdn/robot_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/motor_command.hpp\n'}
+[27.943100] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/abdn/robot_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/encoder_vals.hpp\n'}
+[27.944463] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/abdn/robot_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/motor_vels.hpp\n'}
+[27.945682] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/abdn/robot_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail\n'}
+[27.946450] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/abdn/robot_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_vels__type_support.hpp\n'}
+[27.947954] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/abdn/robot_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_vels__traits.hpp\n'}
+[27.949423] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/abdn/robot_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/encoder_vals__struct.hpp\n'}
+[27.950906] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/abdn/robot_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/encoder_vals__traits.hpp\n'}
+[27.952351] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/abdn/robot_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_command__type_support.hpp\n'}
+[27.953806] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/abdn/robot_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_command__struct.hpp\n'}
+[27.955324] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/abdn/robot_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/encoder_vals__builder.hpp\n'}
+[27.956778] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/abdn/robot_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_vels__struct.hpp\n'}
+[27.958200] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/abdn/robot_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_command__traits.hpp\n'}
+[27.959834] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/abdn/robot_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_vels__builder.hpp\n'}
+[27.961252] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/abdn/robot_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/encoder_vals__type_support.hpp\n'}
+[27.962742] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/abdn/robot_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_command__builder.hpp\n'}
+[27.964234] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/abdn/robot_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[27.965796] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/abdn/robot_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs\n'}
+[27.966421] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/abdn/robot_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg\n'}
+[27.967012] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/abdn/robot_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[27.968460] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/abdn/robot_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail\n'}
+[27.969115] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/abdn/robot_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_command__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[27.970785] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/abdn/robot_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/dds_fastrtps\n'}
+[27.971793] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/abdn/robot_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/encoder_vals__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[27.973441] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/abdn/robot_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_vels__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[27.975307] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/abdn/robot_ws/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[27.978950] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/abdn/robot_ws/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[27.979639] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/abdn/robot_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs\n'}
+[27.980143] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/abdn/robot_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg\n'}
+[27.980661] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/abdn/robot_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail\n'}
+[27.981164] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/abdn/robot_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_command__type_support.cpp\n'}
+[27.982615] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/abdn/robot_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/encoder_vals__type_support.cpp\n'}
+[27.984222] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/abdn/robot_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_command__rosidl_typesupport_introspection_cpp.hpp\n'}
+[27.985815] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/abdn/robot_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_vels__type_support.cpp\n'}
+[27.987549] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/abdn/robot_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/encoder_vals__rosidl_typesupport_introspection_cpp.hpp\n'}
+[27.989183] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/abdn/robot_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_vels__rosidl_typesupport_introspection_cpp.hpp\n'}
+[27.991101] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/abdn/robot_ws/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[27.994483] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/abdn/robot_ws/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[27.995300] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/abdn/robot_ws/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_cpp.so\n'}
+[27.998072] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/abdn/robot_ws/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_cpp.so" to ""\n'}
+[27.998986] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/abdn/robot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/pythonpath.sh\n'}
+[28.000096] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/abdn/robot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/pythonpath.dsv\n'}
+[28.001479] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/abdn/robot_ws/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs-0.0.0-py3.10.egg-info\n'}
+[28.002795] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/abdn/robot_ws/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[28.004271] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/abdn/robot_ws/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[28.005766] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/abdn/robot_ws/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[28.007243] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/abdn/robot_ws/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[28.008809] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/abdn/robot_ws/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs\n'}
+[28.009738] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/abdn/robot_ws/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/__init__.py\n'}
+[28.011225] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/abdn/robot_ws/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/_serial_motor_demo_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[28.013006] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/abdn/robot_ws/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/serial_motor_demo_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[28.014826] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/abdn/robot_ws/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/_serial_motor_demo_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[28.016490] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/abdn/robot_ws/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/libserial_motor_demo_msgs__rosidl_generator_py.so\n'}
+[28.018160] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/abdn/robot_ws/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/msg\n'}
+[28.019200] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/abdn/robot_ws/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/msg/_encoder_vals_s.c\n'}
+[28.020618] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/abdn/robot_ws/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/msg/__init__.py\n'}
+[28.021962] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/abdn/robot_ws/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/msg/_motor_command_s.c\n'}
+[28.023405] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/abdn/robot_ws/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/msg/_motor_vels.py\n'}
+[28.024777] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/abdn/robot_ws/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/msg/_encoder_vals.py\n'}
+[28.026106] (-) TimerEvent: {}
+[28.026649] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/abdn/robot_ws/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/msg/_motor_command.py\n'}
+[28.027702] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/abdn/robot_ws/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/msg/_motor_vels_s.c\n'}
+[28.029243] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/abdn/robot_ws/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/serial_motor_demo_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[28.031206] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/abdn/robot_ws/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/serial_motor_demo_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[28.033072] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/abdn/robot_ws/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/_serial_motor_demo_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[28.126367] (-) TimerEvent: {}
+[28.227061] (-) TimerEvent: {}
+[28.232439] (serial_motor_demo_msgs) StdoutLine: {'line': b"Listing '/home/abdn/robot_ws/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs'...\n"}
+[28.234178] (serial_motor_demo_msgs) StdoutLine: {'line': b"Compiling '/home/abdn/robot_ws/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/__init__.py'...\n"}
+[28.235545] (serial_motor_demo_msgs) StdoutLine: {'line': b"Listing '/home/abdn/robot_ws/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/msg'...\n"}
+[28.236625] (serial_motor_demo_msgs) StdoutLine: {'line': b"Compiling '/home/abdn/robot_ws/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/msg/__init__.py'...\n"}
+[28.237792] (serial_motor_demo_msgs) StdoutLine: {'line': b"Compiling '/home/abdn/robot_ws/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/msg/_encoder_vals.py'...\n"}
+[28.239010] (serial_motor_demo_msgs) StdoutLine: {'line': b"Compiling '/home/abdn/robot_ws/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/msg/_motor_command.py'...\n"}
+[28.239940] (serial_motor_demo_msgs) StdoutLine: {'line': b"Compiling '/home/abdn/robot_ws/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/msg/_motor_vels.py'...\n"}
+[28.262432] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/abdn/robot_ws/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/serial_motor_demo_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[28.265849] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/abdn/robot_ws/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/serial_motor_demo_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so" to ""\n'}
+[28.267772] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/abdn/robot_ws/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/serial_motor_demo_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[28.272030] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/abdn/robot_ws/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/serial_motor_demo_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so" to ""\n'}
+[28.274202] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/abdn/robot_ws/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/serial_motor_demo_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[28.278507] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/abdn/robot_ws/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/serial_motor_demo_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so" to ""\n'}
+[28.279422] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/abdn/robot_ws/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_generator_py.so\n'}
+[28.282723] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/abdn/robot_ws/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_generator_py.so" to ""\n'}
+[28.283649] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/abdn/robot_ws/install/serial_motor_demo_msgs/share/ament_index/resource_index/rust_packages/serial_motor_demo_msgs\n'}
+[28.285196] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/abdn/robot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/rust\n'}
+[28.285875] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/abdn/robot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/rust/src\n'}
+[28.286760] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/abdn/robot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/rust/src/msg.rs\n'}
+[28.288005] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/abdn/robot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/rust/src/msg\n'}
+[28.288816] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/abdn/robot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/rust/src/msg/rmw.rs\n'}
+[28.290206] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/abdn/robot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/rust/src/lib.rs\n'}
+[28.291482] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/abdn/robot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/rust/build.rs\n'}
+[28.292656] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/abdn/robot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/rust/Cargo.toml\n'}
+[28.294439] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/abdn/robot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/msg/MotorCommand.idl\n'}
+[28.295915] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/abdn/robot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/msg/MotorVels.idl\n'}
+[28.297381] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/abdn/robot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/msg/EncoderVals.idl\n'}
+[28.298884] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/abdn/robot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/msg/MotorCommand.msg\n'}
+[28.300277] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/abdn/robot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/msg/MotorVels.msg\n'}
+[28.301678] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/abdn/robot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/msg/EncoderVals.msg\n'}
+[28.303565] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/abdn/robot_ws/install/serial_motor_demo_msgs/share/ament_index/resource_index/package_run_dependencies/serial_motor_demo_msgs\n'}
+[28.305649] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/abdn/robot_ws/install/serial_motor_demo_msgs/share/ament_index/resource_index/parent_prefix_path/serial_motor_demo_msgs\n'}
+[28.307422] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/abdn/robot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/ament_prefix_path.sh\n'}
+[28.308908] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/abdn/robot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/ament_prefix_path.dsv\n'}
+[28.310410] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/abdn/robot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/path.sh\n'}
+[28.311878] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/abdn/robot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/path.dsv\n'}
+[28.313246] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/abdn/robot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/local_setup.bash\n'}
+[28.314702] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/abdn/robot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/local_setup.sh\n'}
+[28.316108] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/abdn/robot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/local_setup.zsh\n'}
+[28.317535] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/abdn/robot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/local_setup.dsv\n'}
+[28.318967] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/abdn/robot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.dsv\n'}
+[28.320815] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/abdn/robot_ws/install/serial_motor_demo_msgs/share/ament_index/resource_index/packages/serial_motor_demo_msgs\n'}
+[28.323051] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/abdn/robot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/export_serial_motor_demo_msgs__rosidl_generator_cExport.cmake\n'}
+[28.324845] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/abdn/robot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/export_serial_motor_demo_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[28.326742] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/abdn/robot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/export_serial_motor_demo_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[28.327258] (-) TimerEvent: {}
+[28.328667] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/abdn/robot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/export_serial_motor_demo_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[28.330710] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/abdn/robot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[28.332562] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/abdn/robot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[28.334469] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/abdn/robot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_cExport.cmake\n'}
+[28.336212] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/abdn/robot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[28.338039] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/abdn/robot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/export_serial_motor_demo_msgs__rosidl_generator_cppExport.cmake\n'}
+[28.339957] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/abdn/robot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/export_serial_motor_demo_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[28.341814] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/abdn/robot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/export_serial_motor_demo_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[28.343827] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/abdn/robot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[28.345662] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/abdn/robot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[28.347807] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/abdn/robot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[28.349586] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/abdn/robot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[28.351501] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/abdn/robot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/export_serial_motor_demo_msgs__rosidl_generator_pyExport.cmake\n'}
+[28.353293] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/abdn/robot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/export_serial_motor_demo_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[28.355078] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/abdn/robot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[28.356563] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/abdn/robot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[28.358176] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/abdn/robot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[28.359859] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/abdn/robot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[28.361410] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/abdn/robot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[28.363049] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/abdn/robot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[28.364700] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/abdn/robot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[28.366356] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/abdn/robot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgsConfig.cmake\n'}
+[28.367691] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/abdn/robot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgsConfig-version.cmake\n'}
+[28.369180] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/abdn/robot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.xml\n'}
+[28.378811] (serial_motor_demo_msgs) CommandEnded: {'returncode': 0}
+[28.428034] (-) TimerEvent: {}
+[28.475554] (serial_motor_demo_msgs) JobEnded: {'identifier': 'serial_motor_demo_msgs', 'rc': 0}
+[28.480093] (serial_motor_demo) JobStarted: {'identifier': 'serial_motor_demo'}
+[28.528224] (-) TimerEvent: {}
+[28.629393] (-) TimerEvent: {}
+[28.730137] (-) TimerEvent: {}
+[28.830899] (-) TimerEvent: {}
+[28.931606] (-) TimerEvent: {}
+[29.032347] (-) TimerEvent: {}
+[29.133051] (-) TimerEvent: {}
+[29.233783] (-) TimerEvent: {}
+[29.334475] (-) TimerEvent: {}
+[29.435163] (-) TimerEvent: {}
+[29.535860] (-) TimerEvent: {}
+[29.636592] (-) TimerEvent: {}
+[29.737435] (-) TimerEvent: {}
+[29.838666] (-) TimerEvent: {}
+[29.939451] (-) TimerEvent: {}
+[30.040167] (-) TimerEvent: {}
+[30.140919] (-) TimerEvent: {}
+[30.241760] (-) TimerEvent: {}
+[30.342557] (-) TimerEvent: {}
+[30.443235] (-) TimerEvent: {}
+[30.543898] (-) TimerEvent: {}
+[30.644599] (-) TimerEvent: {}
+[30.745267] (-) TimerEvent: {}
+[30.845953] (-) TimerEvent: {}
+[30.946671] (-) TimerEvent: {}
+[31.047401] (-) TimerEvent: {}
+[31.148153] (-) TimerEvent: {}
+[31.248960] (-) TimerEvent: {}
+[31.349771] (-) TimerEvent: {}
+[31.450614] (-) TimerEvent: {}
+[31.551366] (-) TimerEvent: {}
+[31.652218] (-) TimerEvent: {}
+[31.753155] (-) TimerEvent: {}
+[31.853917] (-) TimerEvent: {}
+[31.954820] (-) TimerEvent: {}
+[32.055723] (-) TimerEvent: {}
+[32.156980] (-) TimerEvent: {}
+[32.166137] (serial_motor_demo) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../../build/serial_motor_demo', 'build', '--build-base', '/home/abdn/robot_ws/build/serial_motor_demo/build', 'install', '--record', '/home/abdn/robot_ws/build/serial_motor_demo/install.log', '--install-scripts', '$base/lib/serial_motor_demo', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/abdn/robot_ws/src/serial_motor_demo/serial_motor_demo', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'abdn', 'SSH_CLIENT': '10.24.33.123 44054 22', 'LC_TIME': 'ar_SY.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/abdn/robot_ws/install/serial_motor_demo_msgs/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/home/abdn/robot_ws/install/diffdrive_arduino/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/abdn', 'OLDPWD': '/home/abdn/robot_ws/src', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'LC_MONETARY': 'ar_SY.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/abdn/robot_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'abdn', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '3', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ADDRESS': 'ar_SY.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'ar_SY.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/abdn/robot_ws/install/serial_motor_demo_msgs:/opt/ros/humble:/home/abdn/robot_ws/install/my_bot:/home/abdn/robot_ws/install/diffdrive_arduino:/home/abdn/robot_ws/install/articubot_one', 'SHELL': '/bin/bash', 'LC_NAME': 'ar_SY.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ar_SY.UTF-8', 'LC_IDENTIFICATION': 'ar_SY.UTF-8', 'PWD': '/home/abdn/robot_ws/build/serial_motor_demo', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '10.24.33.123 44054 10.24.33.203 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/abdn/robot_ws/build/serial_motor_demo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/abdn/robot_ws/install/serial_motor_demo/lib/python3.10/site-packages:/home/abdn/robot_ws/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'ar_SY.UTF-8', 'LC_PAPER': 'ar_SY.UTF-8', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/abdn/robot_ws/install/serial_motor_demo_msgs:/home/abdn/robot_ws/install/my_bot:/home/abdn/robot_ws/install/diffdrive_arduino:/home/abdn/robot_ws/install/articubot_one'}, 'shell': False}
+[32.257151] (-) TimerEvent: {}
+[32.357922] (-) TimerEvent: {}
+[32.458718] (-) TimerEvent: {}
+[32.559551] (-) TimerEvent: {}
+[32.660678] (-) TimerEvent: {}
+[32.761374] (-) TimerEvent: {}
+[32.862166] (-) TimerEvent: {}
+[32.962893] (-) TimerEvent: {}
+[33.063588] (-) TimerEvent: {}
+[33.164284] (-) TimerEvent: {}
+[33.264955] (-) TimerEvent: {}
+[33.313142] (serial_motor_demo) StderrLine: {'line': b"/usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead\n"}
+[33.313965] (serial_motor_demo) StderrLine: {'line': b'  warnings.warn(\n'}
+[33.351420] (serial_motor_demo) StdoutLine: {'line': b'running egg_info\n'}
+[33.354148] (serial_motor_demo) StdoutLine: {'line': b'creating ../../../build/serial_motor_demo/serial_motor_demo.egg-info\n'}
+[33.354983] (serial_motor_demo) StdoutLine: {'line': b'writing ../../../build/serial_motor_demo/serial_motor_demo.egg-info/PKG-INFO\n'}
+[33.356308] (serial_motor_demo) StdoutLine: {'line': b'writing dependency_links to ../../../build/serial_motor_demo/serial_motor_demo.egg-info/dependency_links.txt\n'}
+[33.357069] (serial_motor_demo) StdoutLine: {'line': b'writing entry points to ../../../build/serial_motor_demo/serial_motor_demo.egg-info/entry_points.txt\n'}
+[33.357734] (serial_motor_demo) StdoutLine: {'line': b'writing requirements to ../../../build/serial_motor_demo/serial_motor_demo.egg-info/requires.txt\n'}
+[33.358394] (serial_motor_demo) StdoutLine: {'line': b'writing top-level names to ../../../build/serial_motor_demo/serial_motor_demo.egg-info/top_level.txt\n'}
+[33.359484] (serial_motor_demo) StdoutLine: {'line': b"writing manifest file '../../../build/serial_motor_demo/serial_motor_demo.egg-info/SOURCES.txt'\n"}
+[33.365111] (-) TimerEvent: {}
+[33.367088] (serial_motor_demo) StdoutLine: {'line': b"reading manifest file '../../../build/serial_motor_demo/serial_motor_demo.egg-info/SOURCES.txt'\n"}
+[33.371400] (serial_motor_demo) StdoutLine: {'line': b"writing manifest file '../../../build/serial_motor_demo/serial_motor_demo.egg-info/SOURCES.txt'\n"}
+[33.372165] (serial_motor_demo) StdoutLine: {'line': b'running build\n'}
+[33.372720] (serial_motor_demo) StdoutLine: {'line': b'running build_py\n'}
+[33.373357] (serial_motor_demo) StdoutLine: {'line': b'creating /home/abdn/robot_ws/build/serial_motor_demo/build\n'}
+[33.374077] (serial_motor_demo) StdoutLine: {'line': b'creating /home/abdn/robot_ws/build/serial_motor_demo/build/lib\n'}
+[33.374768] (serial_motor_demo) StdoutLine: {'line': b'creating /home/abdn/robot_ws/build/serial_motor_demo/build/lib/serial_motor_demo\n'}
+[33.375348] (serial_motor_demo) StdoutLine: {'line': b'copying serial_motor_demo/__init__.py -> /home/abdn/robot_ws/build/serial_motor_demo/build/lib/serial_motor_demo\n'}
+[33.375785] (serial_motor_demo) StdoutLine: {'line': b'copying serial_motor_demo/gui.py -> /home/abdn/robot_ws/build/serial_motor_demo/build/lib/serial_motor_demo\n'}
+[33.376354] (serial_motor_demo) StdoutLine: {'line': b'copying serial_motor_demo/driver.py -> /home/abdn/robot_ws/build/serial_motor_demo/build/lib/serial_motor_demo\n'}
+[33.377406] (serial_motor_demo) StdoutLine: {'line': b'running install\n'}
+[33.378787] (serial_motor_demo) StdoutLine: {'line': b'running install_lib\n'}
+[33.382225] (serial_motor_demo) StdoutLine: {'line': b'creating /home/abdn/robot_ws/install/serial_motor_demo/lib/python3.10/site-packages/serial_motor_demo\n'}
+[33.382963] (serial_motor_demo) StdoutLine: {'line': b'copying /home/abdn/robot_ws/build/serial_motor_demo/build/lib/serial_motor_demo/__init__.py -> /home/abdn/robot_ws/install/serial_motor_demo/lib/python3.10/site-packages/serial_motor_demo\n'}
+[33.383560] (serial_motor_demo) StdoutLine: {'line': b'copying /home/abdn/robot_ws/build/serial_motor_demo/build/lib/serial_motor_demo/gui.py -> /home/abdn/robot_ws/install/serial_motor_demo/lib/python3.10/site-packages/serial_motor_demo\n'}
+[33.384371] (serial_motor_demo) StdoutLine: {'line': b'copying /home/abdn/robot_ws/build/serial_motor_demo/build/lib/serial_motor_demo/driver.py -> /home/abdn/robot_ws/install/serial_motor_demo/lib/python3.10/site-packages/serial_motor_demo\n'}
+[33.387247] (serial_motor_demo) StdoutLine: {'line': b'byte-compiling /home/abdn/robot_ws/install/serial_motor_demo/lib/python3.10/site-packages/serial_motor_demo/__init__.py to __init__.cpython-310.pyc\n'}
+[33.388813] (serial_motor_demo) StdoutLine: {'line': b'byte-compiling /home/abdn/robot_ws/install/serial_motor_demo/lib/python3.10/site-packages/serial_motor_demo/gui.py to gui.cpython-310.pyc\n'}
+[33.395827] (serial_motor_demo) StdoutLine: {'line': b'byte-compiling /home/abdn/robot_ws/install/serial_motor_demo/lib/python3.10/site-packages/serial_motor_demo/driver.py to driver.cpython-310.pyc\n'}
+[33.400111] (serial_motor_demo) StdoutLine: {'line': b'running install_data\n'}
+[33.400823] (serial_motor_demo) StdoutLine: {'line': b'creating /home/abdn/robot_ws/install/serial_motor_demo/share/ament_index\n'}
+[33.401527] (serial_motor_demo) StdoutLine: {'line': b'creating /home/abdn/robot_ws/install/serial_motor_demo/share/ament_index/resource_index\n'}
+[33.402126] (serial_motor_demo) StdoutLine: {'line': b'creating /home/abdn/robot_ws/install/serial_motor_demo/share/ament_index/resource_index/packages\n'}
+[33.402626] (serial_motor_demo) StdoutLine: {'line': b'copying resource/serial_motor_demo -> /home/abdn/robot_ws/install/serial_motor_demo/share/ament_index/resource_index/packages\n'}
+[33.403219] (serial_motor_demo) StdoutLine: {'line': b'copying package.xml -> /home/abdn/robot_ws/install/serial_motor_demo/share/serial_motor_demo\n'}
+[33.403766] (serial_motor_demo) StdoutLine: {'line': b'running install_egg_info\n'}
+[33.411253] (serial_motor_demo) StdoutLine: {'line': b'Copying ../../../build/serial_motor_demo/serial_motor_demo.egg-info to /home/abdn/robot_ws/install/serial_motor_demo/lib/python3.10/site-packages/serial_motor_demo-0.0.0-py3.10.egg-info\n'}
+[33.417675] (serial_motor_demo) StdoutLine: {'line': b'running install_scripts\n'}
+[33.465268] (-) TimerEvent: {}
+[33.505930] (serial_motor_demo) StdoutLine: {'line': b'Installing driver script to /home/abdn/robot_ws/install/serial_motor_demo/lib/serial_motor_demo\n'}
+[33.506795] (serial_motor_demo) StdoutLine: {'line': b'Installing gui script to /home/abdn/robot_ws/install/serial_motor_demo/lib/serial_motor_demo\n'}
+[33.508415] (serial_motor_demo) StdoutLine: {'line': b"writing list of installed files to '/home/abdn/robot_ws/build/serial_motor_demo/install.log'\n"}
+[33.565606] (-) TimerEvent: {}
+[33.629370] (serial_motor_demo) CommandEnded: {'returncode': 0}
+[33.663244] (serial_motor_demo) JobEnded: {'identifier': 'serial_motor_demo', 'rc': 0}
+[33.666759] (-) TimerEvent: {}
+[33.667117] (-) EventReactorShutdown: {}

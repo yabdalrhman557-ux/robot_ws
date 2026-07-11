@@ -1,0 +1,21 @@
+[0.044s] Invoking command in '/home/abdn/robot_ws/build/diffdrive_arduino': /usr/bin/cmake /home/abdn/robot_ws/src/diffdrive_arduino -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/abdn/robot_ws/install/diffdrive_arduino
+[0.140s] [31mCMake Error at CMakeLists.txt:17 (find_package):
+[0.140s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[0.141s]   has asked CMake to find a package configuration file provided by
+[0.141s]   "ament_cmake", but CMake did not find one.
+[0.142s] 
+[0.143s]   Could not find a package configuration file provided by "ament_cmake" with
+[0.143s]   any of the following names:
+[0.144s] 
+[0.144s]     ament_cmakeConfig.cmake
+[0.145s]     ament_cmake-config.cmake
+[0.146s] 
+[0.148s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[0.149s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[0.150s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[0.151s]   has been installed.
+[0.152s] 
+[0.155s] [0m
+[0.158s] -- Configuring incomplete, errors occurred!
+[0.159s] See also "/home/abdn/robot_ws/build/diffdrive_arduino/CMakeFiles/CMakeOutput.log".
+[0.159s] Invoked command in '/home/abdn/robot_ws/build/diffdrive_arduino' returned '1': /usr/bin/cmake /home/abdn/robot_ws/src/diffdrive_arduino -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/abdn/robot_ws/install/diffdrive_arduino

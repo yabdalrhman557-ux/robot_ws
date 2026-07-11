@@ -1,0 +1,1 @@
+Invoking command in '/home/abdn/robot_ws/build/my_bot': /usr/bin/cmake /home/abdn/robot_ws/src/my_bot -DCMAKE_INSTALL_PREFIX=/home/abdn/robot_ws/install/my_bot

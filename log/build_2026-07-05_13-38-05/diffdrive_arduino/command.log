@@ -1,0 +1,1 @@
+Invoking command in '/home/abdn/robot_ws/build/diffdrive_arduino': /usr/bin/cmake --build /home/abdn/robot_ws/build/diffdrive_arduino -- -j4 -l4

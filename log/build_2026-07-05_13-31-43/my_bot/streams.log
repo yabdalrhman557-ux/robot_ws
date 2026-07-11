@@ -1,0 +1,20 @@
+[0.153s] Invoking command in '/home/abdn/robot_ws/build/my_bot': /usr/bin/cmake /home/abdn/robot_ws/src/my_bot -DCMAKE_INSTALL_PREFIX=/home/abdn/robot_ws/install/my_bot
+[0.310s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.311s] Traceback (most recent call last):
+[1.314s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py", line 21, in <module>
+[1.321s]     from ament_package.templates import get_environment_hook_template_path
+[1.323s] ModuleNotFoundError: No module named 'ament_package'
+[1.456s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/ament_cmake_package_templates-extras.cmake:41 (message):
+[1.457s]   execute_process(/usr/bin/python3
+[1.458s]   /opt/ros/humble/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py
+[1.458s]   /home/abdn/robot_ws/build/my_bot/ament_cmake_package_templates/templates.cmake)
+[1.459s]   returned error code 1
+[1.460s] Call Stack (most recent call first):
+[1.460s]   /opt/ros/humble/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+[1.460s]   /opt/ros/humble/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+[1.461s]   /opt/ros/humble/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[1.461s]   CMakeLists.txt:19 (find_package)
+[1.462s] 
+[1.462s] [0m
+[1.462s] -- Configuring incomplete, errors occurred!
+[1.463s] See also "/home/abdn/robot_ws/build/my_bot/CMakeFiles/CMakeOutput.log".

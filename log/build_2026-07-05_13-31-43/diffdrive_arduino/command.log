@@ -1,0 +1,1 @@
+Invoking command in '/home/abdn/robot_ws/build/diffdrive_arduino': /usr/bin/cmake /home/abdn/robot_ws/src/diffdrive_arduino -DCMAKE_INSTALL_PREFIX=/home/abdn/robot_ws/install/diffdrive_arduino

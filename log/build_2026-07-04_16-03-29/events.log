@@ -1,0 +1,355 @@
+[0.000000] (-) TimerEvent: {}
+[0.001772] (diffdrive_arduino) JobQueued: {'identifier': 'diffdrive_arduino', 'dependencies': OrderedDict()}
+[0.002482] (diffdrive_arduino) JobStarted: {'identifier': 'diffdrive_arduino'}
+[0.041850] (diffdrive_arduino) JobProgress: {'identifier': 'diffdrive_arduino', 'progress': 'cmake'}
+[0.045051] (diffdrive_arduino) Command: {'cmd': ['/usr/bin/cmake', '/home/abdn/robot_ws/src/diffdrive_arduino', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/abdn/robot_ws/install/diffdrive_arduino'], 'cwd': '/home/abdn/robot_ws/build/diffdrive_arduino', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'abdn'), ('SSH_CLIENT', '10.24.33.123 38854 22'), ('LC_TIME', 'ar_SY.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/abdn'), ('OLDPWD', '/home/abdn/robot_ws/src'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'ar_SY.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/abdn/robot_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'abdn'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'ar_SY.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'ar_SY.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ar_SY.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ar_SY.UTF-8'), ('LC_IDENTIFICATION', 'ar_SY.UTF-8'), ('PWD', '/home/abdn/robot_ws/build/diffdrive_arduino'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '10.24.33.123 38854 10.24.33.203 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ar_SY.UTF-8'), ('LC_PAPER', 'ar_SY.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.098997] (-) TimerEvent: {}
+[0.145263] (diffdrive_arduino) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.199283] (-) TimerEvent: {}
+[0.300153] (-) TimerEvent: {}
+[0.400971] (-) TimerEvent: {}
+[0.501677] (-) TimerEvent: {}
+[0.602491] (-) TimerEvent: {}
+[0.703238] (-) TimerEvent: {}
+[0.766828] (diffdrive_arduino) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.803427] (-) TimerEvent: {}
+[0.841011] (diffdrive_arduino) StdoutLine: {'line': b'-- Found hardware_interface: 2.54.0 (/opt/ros/humble/share/hardware_interface/cmake)\n'}
+[0.903645] (-) TimerEvent: {}
+[1.004559] (-) TimerEvent: {}
+[1.105333] (-) TimerEvent: {}
+[1.206088] (-) TimerEvent: {}
+[1.306897] (-) TimerEvent: {}
+[1.330652] (diffdrive_arduino) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.407080] (-) TimerEvent: {}
+[1.412418] (diffdrive_arduino) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.507264] (-) TimerEvent: {}
+[1.516681] (diffdrive_arduino) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.607493] (-) TimerEvent: {}
+[1.657364] (diffdrive_arduino) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.707701] (-) TimerEvent: {}
+[1.808551] (-) TimerEvent: {}
+[1.837961] (diffdrive_arduino) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.908738] (-) TimerEvent: {}
+[2.009493] (-) TimerEvent: {}
+[2.110271] (-) TimerEvent: {}
+[2.211094] (-) TimerEvent: {}
+[2.311890] (-) TimerEvent: {}
+[2.412670] (-) TimerEvent: {}
+[2.513393] (-) TimerEvent: {}
+[2.614175] (-) TimerEvent: {}
+[2.715035] (-) TimerEvent: {}
+[2.815952] (-) TimerEvent: {}
+[2.916742] (-) TimerEvent: {}
+[3.017610] (-) TimerEvent: {}
+[3.118313] (-) TimerEvent: {}
+[3.219083] (-) TimerEvent: {}
+[3.320080] (-) TimerEvent: {}
+[3.420911] (-) TimerEvent: {}
+[3.521671] (-) TimerEvent: {}
+[3.622555] (-) TimerEvent: {}
+[3.706118] (diffdrive_arduino) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[3.722711] (-) TimerEvent: {}
+[3.744568] (diffdrive_arduino) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[3.822893] (-) TimerEvent: {}
+[3.923646] (-) TimerEvent: {}
+[4.011798] (diffdrive_arduino) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[4.023840] (-) TimerEvent: {}
+[4.124677] (-) TimerEvent: {}
+[4.225581] (-) TimerEvent: {}
+[4.292626] (diffdrive_arduino) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[4.311149] (diffdrive_arduino) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[4.325757] (-) TimerEvent: {}
+[4.372364] (diffdrive_arduino) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[4.396129] (diffdrive_arduino) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[4.425933] (-) TimerEvent: {}
+[4.433131] (diffdrive_arduino) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[4.470197] (diffdrive_arduino) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[4.526112] (-) TimerEvent: {}
+[4.592881] (diffdrive_arduino) StdoutLine: {'line': b'-- Looking for C++ include pthread.h\n'}
+[4.626329] (-) TimerEvent: {}
+[4.727178] (-) TimerEvent: {}
+[4.828047] (-) TimerEvent: {}
+[4.929122] (-) TimerEvent: {}
+[5.030125] (-) TimerEvent: {}
+[5.131158] (-) TimerEvent: {}
+[5.173090] (diffdrive_arduino) StdoutLine: {'line': b'-- Looking for C++ include pthread.h - found\n'}
+[5.181009] (diffdrive_arduino) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[5.231340] (-) TimerEvent: {}
+[5.332180] (-) TimerEvent: {}
+[5.432986] (-) TimerEvent: {}
+[5.533925] (-) TimerEvent: {}
+[5.634712] (-) TimerEvent: {}
+[5.668744] (diffdrive_arduino) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[5.674090] (diffdrive_arduino) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[5.734910] (-) TimerEvent: {}
+[5.835759] (-) TimerEvent: {}
+[5.936532] (-) TimerEvent: {}
+[6.037350] (-) TimerEvent: {}
+[6.084344] (diffdrive_arduino) StdoutLine: {'line': b'-- Found ament_cmake_gtest: 1.3.14 (/opt/ros/humble/share/ament_cmake_gtest/cmake)\n'}
+[6.137528] (-) TimerEvent: {}
+[6.238223] (-) TimerEvent: {}
+[6.339017] (-) TimerEvent: {}
+[6.439806] (-) TimerEvent: {}
+[6.476590] (diffdrive_arduino) StdoutLine: {'line': b'-- Configuring done\n'}
+[6.540020] (-) TimerEvent: {}
+[6.585237] (diffdrive_arduino) StdoutLine: {'line': b'-- Generating done\n'}
+[6.606311] (diffdrive_arduino) StdoutLine: {'line': b'-- Build files have been written to: /home/abdn/robot_ws/build/diffdrive_arduino\n'}
+[6.639991] (diffdrive_arduino) CommandEnded: {'returncode': 0}
+[6.642258] (-) TimerEvent: {}
+[6.642761] (diffdrive_arduino) JobProgress: {'identifier': 'diffdrive_arduino', 'progress': 'build'}
+[6.645580] (diffdrive_arduino) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/abdn/robot_ws/build/diffdrive_arduino', '--', '-j4', '-l4'], 'cwd': '/home/abdn/robot_ws/build/diffdrive_arduino', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'abdn'), ('SSH_CLIENT', '10.24.33.123 38854 22'), ('LC_TIME', 'ar_SY.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/abdn'), ('OLDPWD', '/home/abdn/robot_ws/src'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'ar_SY.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/abdn/robot_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'abdn'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'ar_SY.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'ar_SY.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ar_SY.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ar_SY.UTF-8'), ('LC_IDENTIFICATION', 'ar_SY.UTF-8'), ('PWD', '/home/abdn/robot_ws/build/diffdrive_arduino'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '10.24.33.123 38854 10.24.33.203 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ar_SY.UTF-8'), ('LC_PAPER', 'ar_SY.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[6.742490] (-) TimerEvent: {}
+[6.843378] (-) TimerEvent: {}
+[6.890629] (diffdrive_arduino) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/diffdrive_arduino.dir/hardware/diffbot_system.cpp.o\x1b[0m\n'}
+[6.943705] (-) TimerEvent: {}
+[7.044599] (-) TimerEvent: {}
+[7.145381] (-) TimerEvent: {}
+[7.246156] (-) TimerEvent: {}
+[7.346890] (-) TimerEvent: {}
+[7.447650] (-) TimerEvent: {}
+[7.548461] (-) TimerEvent: {}
+[7.649223] (-) TimerEvent: {}
+[7.749949] (-) TimerEvent: {}
+[7.850673] (-) TimerEvent: {}
+[7.951409] (-) TimerEvent: {}
+[8.052148] (-) TimerEvent: {}
+[8.152943] (-) TimerEvent: {}
+[8.253854] (-) TimerEvent: {}
+[8.354703] (-) TimerEvent: {}
+[8.455504] (-) TimerEvent: {}
+[8.556363] (-) TimerEvent: {}
+[8.657169] (-) TimerEvent: {}
+[8.757924] (-) TimerEvent: {}
+[8.858784] (-) TimerEvent: {}
+[8.959552] (-) TimerEvent: {}
+[9.060300] (-) TimerEvent: {}
+[9.161121] (-) TimerEvent: {}
+[9.261850] (-) TimerEvent: {}
+[9.362645] (-) TimerEvent: {}
+[9.463408] (-) TimerEvent: {}
+[9.564111] (-) TimerEvent: {}
+[9.664880] (-) TimerEvent: {}
+[9.765672] (-) TimerEvent: {}
+[9.866454] (-) TimerEvent: {}
+[9.967349] (-) TimerEvent: {}
+[10.068263] (-) TimerEvent: {}
+[10.169063] (-) TimerEvent: {}
+[10.269956] (-) TimerEvent: {}
+[10.370695] (-) TimerEvent: {}
+[10.471456] (-) TimerEvent: {}
+[10.572307] (-) TimerEvent: {}
+[10.673158] (-) TimerEvent: {}
+[10.773985] (-) TimerEvent: {}
+[10.874805] (-) TimerEvent: {}
+[10.975611] (-) TimerEvent: {}
+[11.076459] (-) TimerEvent: {}
+[11.177330] (-) TimerEvent: {}
+[11.278203] (-) TimerEvent: {}
+[11.379235] (-) TimerEvent: {}
+[11.480050] (-) TimerEvent: {}
+[11.580936] (-) TimerEvent: {}
+[11.681733] (-) TimerEvent: {}
+[11.782613] (-) TimerEvent: {}
+[11.883621] (-) TimerEvent: {}
+[11.984486] (-) TimerEvent: {}
+[12.085416] (-) TimerEvent: {}
+[12.186212] (-) TimerEvent: {}
+[12.287014] (-) TimerEvent: {}
+[12.387905] (-) TimerEvent: {}
+[12.488701] (-) TimerEvent: {}
+[12.589596] (-) TimerEvent: {}
+[12.690422] (-) TimerEvent: {}
+[12.791309] (-) TimerEvent: {}
+[12.892130] (-) TimerEvent: {}
+[12.993076] (-) TimerEvent: {}
+[13.093892] (-) TimerEvent: {}
+[13.194684] (-) TimerEvent: {}
+[13.295508] (-) TimerEvent: {}
+[13.396346] (-) TimerEvent: {}
+[13.497224] (-) TimerEvent: {}
+[13.598120] (-) TimerEvent: {}
+[13.699062] (-) TimerEvent: {}
+[13.799915] (-) TimerEvent: {}
+[13.900988] (-) TimerEvent: {}
+[14.002023] (-) TimerEvent: {}
+[14.102988] (-) TimerEvent: {}
+[14.203998] (-) TimerEvent: {}
+[14.304973] (-) TimerEvent: {}
+[14.405944] (-) TimerEvent: {}
+[14.506742] (-) TimerEvent: {}
+[14.607587] (-) TimerEvent: {}
+[14.708431] (-) TimerEvent: {}
+[14.809332] (-) TimerEvent: {}
+[14.910185] (-) TimerEvent: {}
+[15.011109] (-) TimerEvent: {}
+[15.111943] (-) TimerEvent: {}
+[15.212861] (-) TimerEvent: {}
+[15.313688] (-) TimerEvent: {}
+[15.414511] (-) TimerEvent: {}
+[15.515378] (-) TimerEvent: {}
+[15.616438] (-) TimerEvent: {}
+[15.717473] (-) TimerEvent: {}
+[15.818422] (-) TimerEvent: {}
+[15.919376] (-) TimerEvent: {}
+[16.020301] (-) TimerEvent: {}
+[16.121299] (-) TimerEvent: {}
+[16.222143] (-) TimerEvent: {}
+[16.323117] (-) TimerEvent: {}
+[16.423980] (-) TimerEvent: {}
+[16.524894] (-) TimerEvent: {}
+[16.625704] (-) TimerEvent: {}
+[16.726563] (-) TimerEvent: {}
+[16.827642] (-) TimerEvent: {}
+[16.928618] (-) TimerEvent: {}
+[17.029598] (-) TimerEvent: {}
+[17.130478] (-) TimerEvent: {}
+[17.231483] (-) TimerEvent: {}
+[17.332908] (-) TimerEvent: {}
+[17.434294] (-) TimerEvent: {}
+[17.535430] (-) TimerEvent: {}
+[17.636245] (-) TimerEvent: {}
+[17.737306] (-) TimerEvent: {}
+[17.838731] (-) TimerEvent: {}
+[17.939866] (-) TimerEvent: {}
+[18.040732] (-) TimerEvent: {}
+[18.141801] (-) TimerEvent: {}
+[18.242620] (-) TimerEvent: {}
+[18.343518] (-) TimerEvent: {}
+[18.444329] (-) TimerEvent: {}
+[18.545250] (-) TimerEvent: {}
+[18.646100] (-) TimerEvent: {}
+[18.746981] (-) TimerEvent: {}
+[18.847871] (-) TimerEvent: {}
+[18.948723] (-) TimerEvent: {}
+[19.049572] (-) TimerEvent: {}
+[19.150415] (-) TimerEvent: {}
+[19.251307] (-) TimerEvent: {}
+[19.352368] (-) TimerEvent: {}
+[19.453534] (-) TimerEvent: {}
+[19.563495] (-) TimerEvent: {}
+[19.664456] (-) TimerEvent: {}
+[19.765336] (-) TimerEvent: {}
+[19.866167] (-) TimerEvent: {}
+[19.966999] (-) TimerEvent: {}
+[20.067886] (-) TimerEvent: {}
+[20.168725] (-) TimerEvent: {}
+[20.269818] (-) TimerEvent: {}
+[20.371000] (-) TimerEvent: {}
+[20.472020] (-) TimerEvent: {}
+[20.572916] (-) TimerEvent: {}
+[20.673728] (-) TimerEvent: {}
+[20.774573] (-) TimerEvent: {}
+[20.875568] (-) TimerEvent: {}
+[20.976403] (-) TimerEvent: {}
+[21.077235] (-) TimerEvent: {}
+[21.178045] (-) TimerEvent: {}
+[21.278867] (-) TimerEvent: {}
+[21.379696] (-) TimerEvent: {}
+[21.480541] (-) TimerEvent: {}
+[21.581395] (-) TimerEvent: {}
+[21.682203] (-) TimerEvent: {}
+[21.783001] (-) TimerEvent: {}
+[21.883792] (-) TimerEvent: {}
+[21.984573] (-) TimerEvent: {}
+[22.085601] (-) TimerEvent: {}
+[22.186856] (-) TimerEvent: {}
+[22.287679] (-) TimerEvent: {}
+[22.388481] (-) TimerEvent: {}
+[22.489320] (-) TimerEvent: {}
+[22.590052] (-) TimerEvent: {}
+[22.690840] (-) TimerEvent: {}
+[22.791660] (-) TimerEvent: {}
+[22.892506] (-) TimerEvent: {}
+[22.993337] (-) TimerEvent: {}
+[23.094195] (-) TimerEvent: {}
+[23.195018] (-) TimerEvent: {}
+[23.295872] (-) TimerEvent: {}
+[23.396685] (-) TimerEvent: {}
+[23.497551] (-) TimerEvent: {}
+[23.598389] (-) TimerEvent: {}
+[23.699220] (-) TimerEvent: {}
+[23.800045] (-) TimerEvent: {}
+[23.901148] (-) TimerEvent: {}
+[24.002362] (-) TimerEvent: {}
+[24.103338] (-) TimerEvent: {}
+[24.204167] (-) TimerEvent: {}
+[24.305074] (-) TimerEvent: {}
+[24.405893] (-) TimerEvent: {}
+[24.506719] (-) TimerEvent: {}
+[24.607589] (-) TimerEvent: {}
+[24.657262] (diffdrive_arduino) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libdiffdrive_arduino.so\x1b[0m\n'}
+[24.707849] (-) TimerEvent: {}
+[24.808696] (-) TimerEvent: {}
+[24.909739] (-) TimerEvent: {}
+[25.010784] (-) TimerEvent: {}
+[25.112139] (-) TimerEvent: {}
+[25.213160] (-) TimerEvent: {}
+[25.314191] (-) TimerEvent: {}
+[25.415395] (-) TimerEvent: {}
+[25.516339] (-) TimerEvent: {}
+[25.617173] (-) TimerEvent: {}
+[25.718008] (-) TimerEvent: {}
+[25.818803] (-) TimerEvent: {}
+[25.911118] (diffdrive_arduino) StdoutLine: {'line': b'[100%] Built target diffdrive_arduino\n'}
+[25.919058] (-) TimerEvent: {}
+[25.984537] (diffdrive_arduino) CommandEnded: {'returncode': 0}
+[25.993947] (diffdrive_arduino) JobProgress: {'identifier': 'diffdrive_arduino', 'progress': 'install'}
+[26.019308] (-) TimerEvent: {}
+[26.041573] (diffdrive_arduino) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/abdn/robot_ws/build/diffdrive_arduino'], 'cwd': '/home/abdn/robot_ws/build/diffdrive_arduino', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'abdn'), ('SSH_CLIENT', '10.24.33.123 38854 22'), ('LC_TIME', 'ar_SY.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/abdn'), ('OLDPWD', '/home/abdn/robot_ws/src'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'ar_SY.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/abdn/robot_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'abdn'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'ar_SY.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'ar_SY.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ar_SY.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ar_SY.UTF-8'), ('LC_IDENTIFICATION', 'ar_SY.UTF-8'), ('PWD', '/home/abdn/robot_ws/build/diffdrive_arduino'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '10.24.33.123 38854 10.24.33.203 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ar_SY.UTF-8'), ('LC_PAPER', 'ar_SY.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[26.082045] (diffdrive_arduino) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[26.084037] (diffdrive_arduino) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[26.085509] (diffdrive_arduino) StdoutLine: {'line': b'-- Symlinking: /home/abdn/robot_ws/install/diffdrive_arduino/share/diffdrive_arduino//diffdrive_arduino.xml\n'}
+[26.119522] (-) TimerEvent: {}
+[26.122342] (diffdrive_arduino) StdoutLine: {'line': b'-- Symlinking: /home/abdn/robot_ws/install/diffdrive_arduino/include/diffdrive_arduino/diffdrive_arduino/arduino_comms.hpp\n'}
+[26.157325] (diffdrive_arduino) StdoutLine: {'line': b'-- Symlinking: /home/abdn/robot_ws/install/diffdrive_arduino/include/diffdrive_arduino/diffdrive_arduino/diffbot_system.hpp\n'}
+[26.191837] (diffdrive_arduino) StdoutLine: {'line': b'-- Symlinking: /home/abdn/robot_ws/install/diffdrive_arduino/include/diffdrive_arduino/diffdrive_arduino/visibility_control.h\n'}
+[26.219754] (-) TimerEvent: {}
+[26.226503] (diffdrive_arduino) StdoutLine: {'line': b'-- Symlinking: /home/abdn/robot_ws/install/diffdrive_arduino/include/diffdrive_arduino/diffdrive_arduino/wheel.hpp\n'}
+[26.261418] (diffdrive_arduino) StdoutLine: {'line': b'-- Symlinking: /home/abdn/robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/launch/view_robot.launch.py\n'}
+[26.297363] (diffdrive_arduino) StdoutLine: {'line': b'-- Symlinking: /home/abdn/robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/ros2_control/diffbot.ros2_control.xacro\n'}
+[26.320024] (-) TimerEvent: {}
+[26.334806] (diffdrive_arduino) StdoutLine: {'line': b'-- Symlinking: /home/abdn/robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/urdf/diffbot.materials.xacro\n'}
+[26.368964] (diffdrive_arduino) StdoutLine: {'line': b'-- Symlinking: /home/abdn/robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/urdf/diffbot.urdf.xacro\n'}
+[26.403100] (diffdrive_arduino) StdoutLine: {'line': b'-- Symlinking: /home/abdn/robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/urdf/diffbot_description.urdf.xacro\n'}
+[26.420293] (-) TimerEvent: {}
+[26.438785] (diffdrive_arduino) StdoutLine: {'line': b'-- Symlinking: /home/abdn/robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/rviz/diffbot.rviz\n'}
+[26.475768] (diffdrive_arduino) StdoutLine: {'line': b'-- Symlinking: /home/abdn/robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/rviz/diffbot_view.rviz\n'}
+[26.512245] (diffdrive_arduino) StdoutLine: {'line': b'-- Symlinking: /home/abdn/robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/launch/diffbot.launch.py\n'}
+[26.520482] (-) TimerEvent: {}
+[26.548218] (diffdrive_arduino) StdoutLine: {'line': b'-- Symlinking: /home/abdn/robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/config/diffbot_controllers.yaml\n'}
+[26.583928] (diffdrive_arduino) StdoutLine: {'line': b'-- Symlinking: /home/abdn/robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/environment/library_path.sh\n'}
+[26.618680] (diffdrive_arduino) StdoutLine: {'line': b'-- Symlinking: /home/abdn/robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/environment/library_path.dsv\n'}
+[26.620598] (-) TimerEvent: {}
+[26.654283] (diffdrive_arduino) StdoutLine: {'line': b'-- Symlinking: /home/abdn/robot_ws/install/diffdrive_arduino/share/ament_index/resource_index/package_run_dependencies/diffdrive_arduino\n'}
+[26.689875] (diffdrive_arduino) StdoutLine: {'line': b'-- Symlinking: /home/abdn/robot_ws/install/diffdrive_arduino/share/ament_index/resource_index/parent_prefix_path/diffdrive_arduino\n'}
+[26.720906] (-) TimerEvent: {}
+[26.724328] (diffdrive_arduino) StdoutLine: {'line': b'-- Symlinking: /home/abdn/robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/environment/ament_prefix_path.sh\n'}
+[26.758682] (diffdrive_arduino) StdoutLine: {'line': b'-- Symlinking: /home/abdn/robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/environment/ament_prefix_path.dsv\n'}
+[26.793349] (diffdrive_arduino) StdoutLine: {'line': b'-- Symlinking: /home/abdn/robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/environment/path.sh\n'}
+[26.821084] (-) TimerEvent: {}
+[26.828210] (diffdrive_arduino) StdoutLine: {'line': b'-- Symlinking: /home/abdn/robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/environment/path.dsv\n'}
+[26.862328] (diffdrive_arduino) StdoutLine: {'line': b'-- Symlinking: /home/abdn/robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.bash\n'}
+[26.897593] (diffdrive_arduino) StdoutLine: {'line': b'-- Symlinking: /home/abdn/robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.sh\n'}
+[26.921344] (-) TimerEvent: {}
+[26.932147] (diffdrive_arduino) StdoutLine: {'line': b'-- Symlinking: /home/abdn/robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.zsh\n'}
+[26.968148] (diffdrive_arduino) StdoutLine: {'line': b'-- Symlinking: /home/abdn/robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.dsv\n'}
+[27.002420] (diffdrive_arduino) StdoutLine: {'line': b'-- Symlinking: /home/abdn/robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/package.dsv\n'}
+[27.021495] (-) TimerEvent: {}
+[27.038314] (diffdrive_arduino) StdoutLine: {'line': b'-- Symlinking: /home/abdn/robot_ws/install/diffdrive_arduino/share/ament_index/resource_index/packages/diffdrive_arduino\n'}
+[27.073369] (diffdrive_arduino) StdoutLine: {'line': b'-- Symlinking: /home/abdn/robot_ws/install/diffdrive_arduino/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/diffdrive_arduino\n'}
+[27.108201] (diffdrive_arduino) StdoutLine: {'line': b'-- Symlinking: /home/abdn/robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[27.121677] (-) TimerEvent: {}
+[27.143235] (diffdrive_arduino) StdoutLine: {'line': b'-- Symlinking: /home/abdn/robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[27.177435] (diffdrive_arduino) StdoutLine: {'line': b'-- Symlinking: /home/abdn/robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/cmake/diffdrive_arduinoConfig.cmake\n'}
+[27.211299] (diffdrive_arduino) StdoutLine: {'line': b'-- Symlinking: /home/abdn/robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/cmake/diffdrive_arduinoConfig-version.cmake\n'}
+[27.221865] (-) TimerEvent: {}
+[27.245381] (diffdrive_arduino) StdoutLine: {'line': b'-- Symlinking: /home/abdn/robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/package.xml\n'}
+[27.280297] (diffdrive_arduino) StdoutLine: {'line': b'-- Installing: /home/abdn/robot_ws/install/diffdrive_arduino/lib/libdiffdrive_arduino.so\n'}
+[27.290940] (diffdrive_arduino) StdoutLine: {'line': b'-- Set runtime path of "/home/abdn/robot_ws/install/diffdrive_arduino/lib/libdiffdrive_arduino.so" to ""\n'}
+[27.291673] (diffdrive_arduino) StdoutLine: {'line': b'-- Installing: /home/abdn/robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/cmake/export_diffdrive_arduinoExport.cmake\n'}
+[27.293198] (diffdrive_arduino) StdoutLine: {'line': b'-- Installing: /home/abdn/robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/cmake/export_diffdrive_arduinoExport-noconfig.cmake\n'}
+[27.300272] (diffdrive_arduino) CommandEnded: {'returncode': 0}
+[27.322505] (-) TimerEvent: {}
+[27.424065] (-) TimerEvent: {}
+[27.468821] (diffdrive_arduino) JobEnded: {'identifier': 'diffdrive_arduino', 'rc': 0}
+[27.471790] (-) EventReactorShutdown: {}

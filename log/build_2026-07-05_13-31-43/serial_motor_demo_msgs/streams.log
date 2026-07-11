@@ -1,0 +1,32 @@
+[0.089s] Invoking command in '/home/abdn/robot_ws/build/serial_motor_demo_msgs': /usr/bin/cmake /home/abdn/robot_ws/src/serial_motor_demo/serial_motor_demo_msgs -DCMAKE_INSTALL_PREFIX=/home/abdn/robot_ws/install/serial_motor_demo_msgs
+[1.265s] -- The C compiler identification is GNU 11.4.0
+[2.125s] -- The CXX compiler identification is GNU 11.4.0
+[2.176s] -- Detecting C compiler ABI info
+[2.573s] -- Detecting C compiler ABI info - done
+[2.602s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.609s] -- Detecting C compile features
+[2.613s] -- Detecting C compile features - done
+[2.636s] -- Detecting CXX compiler ABI info
+[3.033s] -- Detecting CXX compiler ABI info - done
+[3.066s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.067s] -- Detecting CXX compile features
+[3.069s] -- Detecting CXX compile features - done
+[3.143s] [31mCMake Error at CMakeLists.txt:19 (find_package):
+[3.144s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[3.144s]   has asked CMake to find a package configuration file provided by
+[3.145s]   "ament_cmake", but CMake did not find one.
+[3.145s] 
+[3.145s]   Could not find a package configuration file provided by "ament_cmake" with
+[3.146s]   any of the following names:
+[3.146s] 
+[3.146s]     ament_cmakeConfig.cmake
+[3.148s]     ament_cmake-config.cmake
+[3.148s] 
+[3.149s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[3.150s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[3.151s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[3.152s]   has been installed.
+[3.153s] 
+[3.153s] [0m
+[3.154s] -- Configuring incomplete, errors occurred!
+[3.154s] See also "/home/abdn/robot_ws/build/serial_motor_demo_msgs/CMakeFiles/CMakeOutput.log".

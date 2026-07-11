@@ -1,0 +1,21 @@
+[0.097s] Invoking command in '/home/abdn/robot_ws/build/articubot_one': /usr/bin/cmake /home/abdn/robot_ws/src/articubot_one -DCMAKE_INSTALL_PREFIX=/home/abdn/robot_ws/install/articubot_one
+[0.341s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.325s] Traceback (most recent call last):
+[1.328s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py", line 21, in <module>
+[1.345s]     from ament_package.templates import get_environment_hook_template_path
+[1.347s] ModuleNotFoundError: No module named 'ament_package'
+[1.468s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/ament_cmake_package_templates-extras.cmake:41 (message):
+[1.469s]   execute_process(/usr/bin/python3
+[1.471s]   /opt/ros/humble/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py
+[1.472s]   /home/abdn/robot_ws/build/articubot_one/ament_cmake_package_templates/templates.cmake)
+[1.473s]   returned error code 1
+[1.474s] Call Stack (most recent call first):
+[1.476s]   /opt/ros/humble/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+[1.478s]   /opt/ros/humble/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+[1.480s]   /opt/ros/humble/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[1.481s]   CMakeLists.txt:19 (find_package)
+[1.482s] 
+[1.482s] [0m
+[1.483s] -- Configuring incomplete, errors occurred!
+[1.484s] See also "/home/abdn/robot_ws/build/articubot_one/CMakeFiles/CMakeOutput.log".
+[1.511s] Invoked command in '/home/abdn/robot_ws/build/articubot_one' returned '1': /usr/bin/cmake /home/abdn/robot_ws/src/articubot_one -DCMAKE_INSTALL_PREFIX=/home/abdn/robot_ws/install/articubot_one

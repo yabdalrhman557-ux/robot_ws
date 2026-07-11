@@ -1,0 +1,1 @@
+[0.080s] Invoking command in '/home/abdn/robot_ws/build/my_bot': /usr/bin/cmake --build /home/abdn/robot_ws/build/my_bot -- -j4 -l4

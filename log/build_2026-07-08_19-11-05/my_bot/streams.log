@@ -1,0 +1,39 @@
+[0.092s] Invoking command in '/home/abdn/robot_ws/build/my_bot': /usr/bin/cmake --build /home/abdn/robot_ws/build/my_bot -- -j4 -l4
+[0.525s] Invoked command in '/home/abdn/robot_ws/build/my_bot' returned '0': /usr/bin/cmake --build /home/abdn/robot_ws/build/my_bot -- -j4 -l4
+[0.588s] Invoking command in '/home/abdn/robot_ws/build/my_bot': /usr/bin/cmake --install /home/abdn/robot_ws/build/my_bot
+[0.629s] -- Install configuration: ""
+[0.646s] -- Execute custom install script
+[0.663s] -- Up-to-date symlink: /home/abdn/robot_ws/install/my_bot/share/my_bot/config/drive_bot.rviz
+[0.670s] -- Up-to-date symlink: /home/abdn/robot_ws/install/my_bot/share/my_bot/config/empty.yaml
+[0.679s] -- Up-to-date symlink: /home/abdn/robot_ws/install/my_bot/share/my_bot/config/gazebo_params.yaml
+[0.684s] -- Up-to-date symlink: /home/abdn/robot_ws/install/my_bot/share/my_bot/config/my_controllers.yaml
+[0.696s] -- Symlinking: /home/abdn/robot_ws/install/my_bot/share/my_bot/config/twist_mux.yaml
+[0.754s] -- Up-to-date symlink: /home/abdn/robot_ws/install/my_bot/share/my_bot/config/view_bot.rviz
+[0.758s] -- Up-to-date symlink: /home/abdn/robot_ws/install/my_bot/share/my_bot/description/gazebo_control.xacro
+[0.760s] -- Up-to-date symlink: /home/abdn/robot_ws/install/my_bot/share/my_bot/description/inertial_macros.xacro
+[0.761s] -- Up-to-date symlink: /home/abdn/robot_ws/install/my_bot/share/my_bot/description/lidar.xacro
+[0.764s] -- Up-to-date symlink: /home/abdn/robot_ws/install/my_bot/share/my_bot/description/robot.urdf.xacro
+[0.765s] -- Up-to-date symlink: /home/abdn/robot_ws/install/my_bot/share/my_bot/description/robot_core.xacro
+[0.768s] -- Up-to-date symlink: /home/abdn/robot_ws/install/my_bot/share/my_bot/description/ros2_control.xacro
+[0.771s] -- Up-to-date symlink: /home/abdn/robot_ws/install/my_bot/share/my_bot/launch/launch_robot.launch.py
+[0.775s] -- Up-to-date symlink: /home/abdn/robot_ws/install/my_bot/share/my_bot/launch/launch_sim.launch.py
+[0.778s] -- Up-to-date symlink: /home/abdn/robot_ws/install/my_bot/share/my_bot/launch/rplidar.launch.py
+[0.781s] -- Up-to-date symlink: /home/abdn/robot_ws/install/my_bot/share/my_bot/launch/rsp.launch.py
+[0.784s] -- Up-to-date symlink: /home/abdn/robot_ws/install/my_bot/share/my_bot/worlds/empty.world
+[0.788s] -- Up-to-date symlink: /home/abdn/robot_ws/install/my_bot/share/my_bot/worlds/obstacles.world
+[0.791s] -- Up-to-date symlink: /home/abdn/robot_ws/install/my_bot/share/ament_index/resource_index/package_run_dependencies/my_bot
+[0.793s] -- Up-to-date symlink: /home/abdn/robot_ws/install/my_bot/share/ament_index/resource_index/parent_prefix_path/my_bot
+[0.796s] -- Up-to-date symlink: /home/abdn/robot_ws/install/my_bot/share/my_bot/environment/ament_prefix_path.sh
+[0.798s] -- Up-to-date symlink: /home/abdn/robot_ws/install/my_bot/share/my_bot/environment/ament_prefix_path.dsv
+[0.800s] -- Up-to-date symlink: /home/abdn/robot_ws/install/my_bot/share/my_bot/environment/path.sh
+[0.803s] -- Up-to-date symlink: /home/abdn/robot_ws/install/my_bot/share/my_bot/environment/path.dsv
+[0.806s] -- Up-to-date symlink: /home/abdn/robot_ws/install/my_bot/share/my_bot/local_setup.bash
+[0.808s] -- Up-to-date symlink: /home/abdn/robot_ws/install/my_bot/share/my_bot/local_setup.sh
+[0.810s] -- Up-to-date symlink: /home/abdn/robot_ws/install/my_bot/share/my_bot/local_setup.zsh
+[0.813s] -- Up-to-date symlink: /home/abdn/robot_ws/install/my_bot/share/my_bot/local_setup.dsv
+[0.815s] -- Symlinking: /home/abdn/robot_ws/install/my_bot/share/my_bot/package.dsv
+[0.847s] -- Up-to-date symlink: /home/abdn/robot_ws/install/my_bot/share/ament_index/resource_index/packages/my_bot
+[0.849s] -- Up-to-date symlink: /home/abdn/robot_ws/install/my_bot/share/my_bot/cmake/my_botConfig.cmake
+[0.851s] -- Up-to-date symlink: /home/abdn/robot_ws/install/my_bot/share/my_bot/cmake/my_botConfig-version.cmake
+[0.854s] -- Up-to-date symlink: /home/abdn/robot_ws/install/my_bot/share/my_bot/package.xml
+[0.861s] Invoked command in '/home/abdn/robot_ws/build/my_bot' returned '0': /usr/bin/cmake --install /home/abdn/robot_ws/build/my_bot

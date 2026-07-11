@@ -1,0 +1,43 @@
+[3.696s] Invoking command in '/home/abdn/robot_ws/src/serial_motor_demo/serial_motor_demo': AMENT_PREFIX_PATH=/home/abdn/robot_ws/install/serial_motor_demo_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/abdn/robot_ws/install/serial_motor_demo_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/abdn/robot_ws/install/serial_motor_demo_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/abdn/robot_ws/build/serial_motor_demo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/abdn/robot_ws/install/serial_motor_demo/lib/python3.10/site-packages:/home/abdn/robot_ws/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/serial_motor_demo build --build-base /home/abdn/robot_ws/build/serial_motor_demo/build install --record /home/abdn/robot_ws/build/serial_motor_demo/install.log --install-scripts $base/lib/serial_motor_demo --single-version-externally-managed install_data
+[4.834s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[4.834s]   warnings.warn(
+[4.872s] running egg_info
+[4.874s] creating ../../../build/serial_motor_demo/serial_motor_demo.egg-info
+[4.875s] writing ../../../build/serial_motor_demo/serial_motor_demo.egg-info/PKG-INFO
+[4.876s] writing dependency_links to ../../../build/serial_motor_demo/serial_motor_demo.egg-info/dependency_links.txt
+[4.877s] writing entry points to ../../../build/serial_motor_demo/serial_motor_demo.egg-info/entry_points.txt
+[4.878s] writing requirements to ../../../build/serial_motor_demo/serial_motor_demo.egg-info/requires.txt
+[4.879s] writing top-level names to ../../../build/serial_motor_demo/serial_motor_demo.egg-info/top_level.txt
+[4.880s] writing manifest file '../../../build/serial_motor_demo/serial_motor_demo.egg-info/SOURCES.txt'
+[4.887s] reading manifest file '../../../build/serial_motor_demo/serial_motor_demo.egg-info/SOURCES.txt'
+[4.892s] writing manifest file '../../../build/serial_motor_demo/serial_motor_demo.egg-info/SOURCES.txt'
+[4.892s] running build
+[4.893s] running build_py
+[4.894s] creating /home/abdn/robot_ws/build/serial_motor_demo/build
+[4.894s] creating /home/abdn/robot_ws/build/serial_motor_demo/build/lib
+[4.895s] creating /home/abdn/robot_ws/build/serial_motor_demo/build/lib/serial_motor_demo
+[4.895s] copying serial_motor_demo/__init__.py -> /home/abdn/robot_ws/build/serial_motor_demo/build/lib/serial_motor_demo
+[4.896s] copying serial_motor_demo/gui.py -> /home/abdn/robot_ws/build/serial_motor_demo/build/lib/serial_motor_demo
+[4.896s] copying serial_motor_demo/driver.py -> /home/abdn/robot_ws/build/serial_motor_demo/build/lib/serial_motor_demo
+[4.898s] running install
+[4.899s] running install_lib
+[4.903s] creating /home/abdn/robot_ws/install/serial_motor_demo/lib/python3.10/site-packages/serial_motor_demo
+[4.903s] copying /home/abdn/robot_ws/build/serial_motor_demo/build/lib/serial_motor_demo/__init__.py -> /home/abdn/robot_ws/install/serial_motor_demo/lib/python3.10/site-packages/serial_motor_demo
+[4.904s] copying /home/abdn/robot_ws/build/serial_motor_demo/build/lib/serial_motor_demo/gui.py -> /home/abdn/robot_ws/install/serial_motor_demo/lib/python3.10/site-packages/serial_motor_demo
+[4.905s] copying /home/abdn/robot_ws/build/serial_motor_demo/build/lib/serial_motor_demo/driver.py -> /home/abdn/robot_ws/install/serial_motor_demo/lib/python3.10/site-packages/serial_motor_demo
+[4.908s] byte-compiling /home/abdn/robot_ws/install/serial_motor_demo/lib/python3.10/site-packages/serial_motor_demo/__init__.py to __init__.cpython-310.pyc
+[4.909s] byte-compiling /home/abdn/robot_ws/install/serial_motor_demo/lib/python3.10/site-packages/serial_motor_demo/gui.py to gui.cpython-310.pyc
+[4.916s] byte-compiling /home/abdn/robot_ws/install/serial_motor_demo/lib/python3.10/site-packages/serial_motor_demo/driver.py to driver.cpython-310.pyc
+[4.920s] running install_data
+[4.921s] creating /home/abdn/robot_ws/install/serial_motor_demo/share/ament_index
+[4.922s] creating /home/abdn/robot_ws/install/serial_motor_demo/share/ament_index/resource_index
+[4.922s] creating /home/abdn/robot_ws/install/serial_motor_demo/share/ament_index/resource_index/packages
+[4.923s] copying resource/serial_motor_demo -> /home/abdn/robot_ws/install/serial_motor_demo/share/ament_index/resource_index/packages
+[4.923s] copying package.xml -> /home/abdn/robot_ws/install/serial_motor_demo/share/serial_motor_demo
+[4.924s] running install_egg_info
+[4.932s] Copying ../../../build/serial_motor_demo/serial_motor_demo.egg-info to /home/abdn/robot_ws/install/serial_motor_demo/lib/python3.10/site-packages/serial_motor_demo-0.0.0-py3.10.egg-info
+[4.938s] running install_scripts
+[5.026s] Installing driver script to /home/abdn/robot_ws/install/serial_motor_demo/lib/serial_motor_demo
+[5.027s] Installing gui script to /home/abdn/robot_ws/install/serial_motor_demo/lib/serial_motor_demo
+[5.029s] writing list of installed files to '/home/abdn/robot_ws/build/serial_motor_demo/install.log'
+[5.151s] Invoked command in '/home/abdn/robot_ws/src/serial_motor_demo/serial_motor_demo' returned '0': AMENT_PREFIX_PATH=/home/abdn/robot_ws/install/serial_motor_demo_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/abdn/robot_ws/install/serial_motor_demo_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/abdn/robot_ws/install/serial_motor_demo_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/abdn/robot_ws/build/serial_motor_demo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/abdn/robot_ws/install/serial_motor_demo/lib/python3.10/site-packages:/home/abdn/robot_ws/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/serial_motor_demo build --build-base /home/abdn/robot_ws/build/serial_motor_demo/build install --record /home/abdn/robot_ws/build/serial_motor_demo/install.log --install-scripts $base/lib/serial_motor_demo --single-version-externally-managed install_data

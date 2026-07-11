@@ -1,0 +1,24 @@
+[0.044s] Invoking command in '/home/abdn/robot_ws/build/diffdrive_arduino': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/abdn/robot_ws/src/diffdrive_arduino -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/abdn/robot_ws/install/diffdrive_arduino
+[0.147s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.014s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.391s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.857s] [31mCMake Error at CMakeLists.txt:19 (find_package):
+[1.857s]   By not providing "Findhardware_interface.cmake" in CMAKE_MODULE_PATH this
+[1.858s]   project has asked CMake to find a package configuration file provided by
+[1.858s]   "hardware_interface", but CMake did not find one.
+[1.859s] 
+[1.859s]   Could not find a package configuration file provided by
+[1.860s]   "hardware_interface" with any of the following names:
+[1.861s] 
+[1.861s]     hardware_interfaceConfig.cmake
+[1.862s]     hardware_interface-config.cmake
+[1.862s] 
+[1.863s]   Add the installation prefix of "hardware_interface" to CMAKE_PREFIX_PATH or
+[1.863s]   set "hardware_interface_DIR" to a directory containing one of the above
+[1.864s]   files.  If "hardware_interface" provides a separate development package or
+[1.864s]   SDK, be sure it has been installed.
+[1.865s] 
+[1.866s] [0m
+[1.867s] -- Configuring incomplete, errors occurred!
+[1.869s] See also "/home/abdn/robot_ws/build/diffdrive_arduino/CMakeFiles/CMakeOutput.log".
+[1.869s] Invoked command in '/home/abdn/robot_ws/build/diffdrive_arduino' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/abdn/robot_ws/src/diffdrive_arduino -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/abdn/robot_ws/install/diffdrive_arduino
